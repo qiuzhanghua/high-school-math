@@ -1,18 +1,14 @@
-#set page(
-  paper: "a4",
-  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
-)
+#import "template.typ": *
 
-#set text(
-  font: ("Noto Serif CJK SC", "DejaVu Sans"),
-  size: 11pt,
-)
+#set document(title: [双曲线焦半径公式])
 
-#set math.equation(numbering: "(1)")
+#template(
+  heading2-align: left,
+  page-footer: "第 1 页",
+)[
 
-= 双曲线焦半径公式
 
-== 一、基本定义
+=== 一、基本定义
 
 #set math.equation(numbering: none)
 
@@ -20,7 +16,7 @@
 
 #set math.equation(numbering: "(1)")
 
-$ x^2 / a^2 - y^2 / b^2 = 1 $（$a > 0$，$b > 0$）  <eq1>
+$ x^2 / a^2 - y^2 / b^2 = 1 $（$a > 0$，$b > 0$）
 
 #set math.equation(numbering: none)
 
@@ -30,7 +26,7 @@ $F_1(-c, 0)$，$F_2(c, 0)$，其中 $c^2 = a^2 + b^2$。
 
 双曲线上任意一点 $P(x, y)$，连接 $P$ 与焦点的线段 $P F_1$、$P F_2$ 称为焦半径。
 
-== 二、焦半径公式
+=== 二、焦半径公式
 
 #set math.equation(numbering: none)
 
@@ -38,9 +34,9 @@ $F_1(-c, 0)$，$F_2(c, 0)$，其中 $c^2 = a^2 + b^2$。
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = |e x + a| $  <eq2>
+$ |P F_1| = |e x + a| $
 
-$ |P F_2| = |e x - a| $  <eq3>
+$ |P F_2| = |e x - a| $
 
 #set math.equation(numbering: none)
 
@@ -56,9 +52,9 @@ $ |P F_2| = |e x - a| $  <eq3>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = e x + a $  <eq4>
+$ |P F_1| = e x + a $
 
-$ |P F_2| = e x - a $  <eq5>
+$ |P F_2| = e x - a $
 
 #set math.equation(numbering: none)
 
@@ -66,9 +62,9 @@ $ |P F_2| = e x - a $  <eq5>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = - (e x + a) = -e x - a $  <eq6>
+$ |P F_1| = - (e x + a) = -e x - a $
 
-$ |P F_2| = - (e x - a) = -e x + a $  <eq7>
+$ |P F_2| = - (e x - a) = -e x + a $
 
 #set math.equation(numbering: none)
 
@@ -78,9 +74,9 @@ $ |P F_2| = - (e x - a) = -e x + a $  <eq7>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = a + (c/a) x $  <eq8>
+$ |P F_1| = a + (c/a) x $
 
-$ |P F_2| = -a + (c/a) x $  <eq9>
+$ |P F_2| = -a + (c/a) x $
 
 #set math.equation(numbering: none)
 
@@ -88,11 +84,11 @@ $ |P F_2| = -a + (c/a) x $  <eq9>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = -a - (c/a) x $  <eq10>
+$ |P F_1| = -a - (c/a) x $
 
-$ |P F_2| = a - (c/a) x $  <eq11>
+$ |P F_2| = a - (c/a) x $
 
-== 三、几何意义
+=== 三、几何意义
 
 #set math.equation(numbering: none)
 
@@ -102,9 +98,9 @@ $ |P F_2| = a - (c/a) x $  <eq11>
 
 #set math.equation(numbering: "(1)")
 
-$ |(e x + a) - (e x - a)| = 2a $（右支）  <eq12>
+$ |(e x + a) - (e x - a)| = 2a $（右支）
 
-$ |(-e x - a) - (-e x + a)| = 2a $（左支）  <eq13>
+$ |(-e x - a) - (-e x + a)| = 2a $（左支）
 
 #set math.equation(numbering: none)
 
@@ -120,7 +116,7 @@ $ |(-e x - a) - (-e x + a)| = 2a $（左支）  <eq13>
 
 - 双曲线的焦半径随点 $P$ 的横坐标 $x$ 线性变化（各支内）
 
-== 四、公式证明（代数法）
+=== 四、公式证明（代数法）
 
 #set math.equation(numbering: none)
 
@@ -130,7 +126,7 @@ $ |(-e x - a) - (-e x + a)| = 2a $（左支）  <eq13>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = (x - c)^2 + y^2 $  <eq14>
+$ |P F_2|^2 = (x - c)^2 + y^2 $
 
 #set math.equation(numbering: none)
 
@@ -138,15 +134,15 @@ $ |P F_2|^2 = (x - c)^2 + y^2 $  <eq14>
 
 #set math.equation(numbering: "(1)")
 
-$ y^2 = b^2 (x^2/a^2 - 1) $  <eq15>
+$ y^2 = b^2 (x^2/a^2 - 1) $
 
 #set math.equation(numbering: none)
 
-代入 <eq14>：
+将上式代入两点间距离公式 $|P F_2|^2 = (x - c)^2 + y^2$，得：
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = (x - c)^2 + b^2 (x^2/a^2 - 1) $  <eq16>
+$ |P F_2|^2 = (x - c)^2 + b^2 (x^2/a^2 - 1) $
 
 #set math.equation(numbering: none)
 
@@ -154,7 +150,7 @@ $ |P F_2|^2 = (x - c)^2 + b^2 (x^2/a^2 - 1) $  <eq16>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2 - a^2)(x^2/a^2 - 1) $  <eq17>
+$ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2 - a^2)(x^2/a^2 - 1) $
 
 #set math.equation(numbering: none)
 
@@ -162,7 +158,7 @@ $ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2 - a^2)(x^2/a^2 - 1) $  <eq17>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2/a^2)x^2 - c^2 - x^2 + a^2 $  <eq18>
+$ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2/a^2)x^2 - c^2 - x^2 + a^2 $
 
 #set math.equation(numbering: none)
 
@@ -170,7 +166,7 @@ $ |P F_2|^2 = x^2 - 2c x + c^2 + (c^2/a^2)x^2 - c^2 - x^2 + a^2 $  <eq18>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = (c^2/a^2)x^2 - 2c x + a^2 = (c x/a - a)^2 $  <eq19>
+$ |P F_2|^2 = (c^2/a^2)x^2 - 2c x + a^2 = (c x/a - a)^2 $
 
 #set math.equation(numbering: none)
 
@@ -178,7 +174,7 @@ $ |P F_2|^2 = (c^2/a^2)x^2 - 2c x + a^2 = (c x/a - a)^2 $  <eq19>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = |c x/a - a| = |e x - a| $  <eq20>
+$ |P F_2| = |c x/a - a| = |e x - a| $
 
 #set math.equation(numbering: none)
 
@@ -186,9 +182,9 @@ $ |P F_2| = |c x/a - a| = |e x - a| $  <eq20>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = |c x/a + a| = |e x + a| $  <eq21>
+$ |P F_1| = |c x/a + a| = |e x + a| $
 
-== 五、公式证明（几何法）
+=== 五、公式证明（几何法）
 
 #set math.equation(numbering: none)
 
@@ -204,7 +200,7 @@ $ |P F_1| = |c x/a + a| = |e x + a| $  <eq21>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| / (x - a/e) = e $  <eq22>
+$ |P F_2| / (x - a/e) = e $
 
 #set math.equation(numbering: none)
 
@@ -212,7 +208,7 @@ $ |P F_2| / (x - a/e) = e $  <eq22>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = e (x - a/e) = e x - a $  <eq23>
+$ |P F_2| = e (x - a/e) = e x - a $
 
 #set math.equation(numbering: none)
 
@@ -220,13 +216,13 @@ $ |P F_2| = e (x - a/e) = e x - a $  <eq23>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = e (x + a/e) = e x + a $  <eq24>
+$ |P F_1| = e (x + a/e) = e x + a $
 
 #set math.equation(numbering: none)
 
 对于左支上的点，同理可得带绝对值的公式。证毕。
 
-== 六、重要推论
+=== 六、重要推论
 
 #set math.equation(numbering: none)
 
@@ -236,7 +232,7 @@ $ |P F_1| = e (x + a/e) = e x + a $  <eq24>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| dot |P F_2| = (e x + a)(e x - a) = e^2 x^2 - a^2 $  <eq25>
+$ |P F_1| dot |P F_2| = (e x + a)(e x - a) = e^2 x^2 - a^2 $
 
 #set math.equation(numbering: none)
 
@@ -246,7 +242,7 @@ $ |P F_1| dot |P F_2| = (e x + a)(e x - a) = e^2 x^2 - a^2 $  <eq25>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| >= a + c $，$|P F_2| >= c - a $  <eq26>
+$ |P F_1| >= a + c $，$|P F_2| >= c - a $
 
 #set math.equation(numbering: none)
 
@@ -254,7 +250,7 @@ $ |P F_1| >= a + c $，$|P F_2| >= c - a $  <eq26>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| >= c - a $，$|P F_2| >= a + c $  <eq27>
+$ |P F_1| >= c - a $，$|P F_2| >= a + c $
 
 #set math.equation(numbering: none)
 
@@ -266,7 +262,7 @@ $ |P F_1| >= c - a $，$|P F_2| >= a + c $  <eq27>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| - |P F_2| = (e x + a) - (e x - a) = 2a $  <eq28>
+$ |P F_1| - |P F_2| = (e x + a) - (e x - a) = 2a $
 
 #set math.equation(numbering: none)
 
@@ -274,13 +270,13 @@ $ |P F_1| - |P F_2| = (e x + a) - (e x - a) = 2a $  <eq28>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $  <eq29>
+$ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $
 
 #set math.equation(numbering: none)
 
 统一为：$||P F_1| - |P F_2|| = 2a$。
 
-== 七、公式汇总
+=== 七、公式汇总
 
 #set math.equation(numbering: none)
 
@@ -299,7 +295,7 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $  <eq29>
 
 其中 $e = c/a > 1$，$c^2 = a^2 + b^2$。
 
-== 八、注意事项
+=== 八、注意事项
 
 #set math.equation(numbering: none)
 
@@ -313,7 +309,7 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $  <eq29>
 
 - 双曲线焦半径没有最大值（范围是 $[a+c, +infinity)$ 或 $[c-a, +infinity)$）
 
-== 九、典型应用
+=== 九、典型应用
 
 #set math.equation(numbering: none)
 
@@ -331,7 +327,7 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $  <eq29>
 
 $ |P F_1| = e x + a = (5/3) times 5 + 3 = 25/3 + 3 = 34/3 $
 
-$ |P F_2| = e x - a = (5/3) times 5 - 3 = 25/3 - 3 = 16/3 $  <eq30>
+$ |P F_2| = e x - a = (5/3) times 5 - 3 = 25/3 - 3 = 16/3 $
 
 #set math.equation(numbering: none)
 
@@ -357,7 +353,7 @@ $ |P F_2| = e x - a = (5/3) times 5 - 3 = 25/3 - 3 = 16/3 $  <eq30>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = 4 $（右支）或 $|P F_2| = 12 $（左支）  <eq31>
+$ |P F_2| = 4 $（右支）或 $|P F_2| = 12 $（左支）
 
 #set math.equation(numbering: none)
 
@@ -375,7 +371,7 @@ $ |P F_2| = 4 $（右支）或 $|P F_2| = 12 $（左支）  <eq31>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = e x - a = (5/4)x - 4 $，其中 $x >= 4$  <eq32>
+$ |P F_2| = e x - a = (5/4)x - 4 $，其中 $x >= 4$
 
 #set math.equation(numbering: none)
 
@@ -383,4 +379,6 @@ $ |P F_2| = e x - a = (5/4)x - 4 $，其中 $x >= 4$  <eq32>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|_min = c - a = 5 - 4 = 1 $  <eq33>
+$ |P F_2|_min = c - a = 5 - 4 = 1 $
+
+]

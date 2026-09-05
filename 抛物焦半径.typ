@@ -1,18 +1,13 @@
-#set page(
-  paper: "a4",
-  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
-)
+#import "template.typ": *
 
-#set text(
-  font: ("Noto Serif CJK SC", "DejaVu Sans"),
-  size: 11pt,
-)
+#set document(title: [抛物线焦半径公式])
 
-#set math.equation(numbering: "(1)")
+#template(
+  heading2-align: left,
+  page-footer: "第 1 页",
+)[
 
-= 抛物线焦半径公式
-
-== 一、基本定义
+=== 一、基本定义
 
 #set math.equation(numbering: none)
 
@@ -20,7 +15,7 @@
 
 #set math.equation(numbering: "(1)")
 
-$ y^2 = 2p x $（$p > 0$）  <eq34>
+$ y^2 = 2p x $（$p > 0$）
 
 #set math.equation(numbering: none)
 
@@ -30,7 +25,7 @@ $F(p/2, 0)$，准线方程为：$x = -p/2$。
 
 抛物线上任意一点 $P(x, y)$，连接 $P$ 与焦点 $F$ 的线段 $P F$ 称为焦半径。
 
-== 二、焦半径公式
+=== 二、焦半径公式
 
 #set math.equation(numbering: none)
 
@@ -38,7 +33,7 @@ $F(p/2, 0)$，准线方程为：$x = -p/2$。
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = x + p/2 $  <eq35>
+$ |P F| = x + p/2 $
 
 #set math.equation(numbering: none)
 
@@ -46,9 +41,9 @@ $ |P F| = x + p/2 $  <eq35>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = y^2/(2p) + p/2 $  <eq36>
+$ |P F| = y^2/(2p) + p/2 $
 
-== 三、几何意义
+=== 三、几何意义
 
 #set math.equation(numbering: none)
 
@@ -64,7 +59,7 @@ $ |P F| = y^2/(2p) + p/2 $  <eq36>
 
 - 抛物线的焦半径随点 $P$ 的横坐标 $x$ 线性增长
 
-== 四、公式证明
+=== 四、公式证明
 
 #set math.equation(numbering: none)
 
@@ -74,7 +69,7 @@ $ |P F| = y^2/(2p) + p/2 $  <eq36>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F|^2 = (x - p/2)^2 + y^2 $  <eq37>
+$ |P F|^2 = (x - p/2)^2 + y^2 $
 
 #set math.equation(numbering: none)
 
@@ -82,7 +77,7 @@ $ |P F|^2 = (x - p/2)^2 + y^2 $  <eq37>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F|^2 = (x - p/2)^2 + 2p x $  <eq38>
+$ |P F|^2 = (x - p/2)^2 + 2p x $
 
 #set math.equation(numbering: none)
 
@@ -90,7 +85,7 @@ $ |P F|^2 = (x - p/2)^2 + 2p x $  <eq38>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F|^2 = x^2 - p x + p^2/4 + 2p x = x^2 + p x + p^2/4 = (x + p/2)^2 $  <eq39>
+$ |P F|^2 = x^2 - p x + p^2/4 + 2p x = x^2 + p x + p^2/4 = (x + p/2)^2 $
 
 #set math.equation(numbering: none)
 
@@ -98,7 +93,7 @@ $ |P F|^2 = x^2 - p x + p^2/4 + 2p x = x^2 + p x + p^2/4 = (x + p/2)^2 $  <eq39>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = x + p/2 $  <eq40>
+$ |P F| = x + p/2 $
 
 #set math.equation(numbering: none)
 
@@ -110,7 +105,7 @@ $ |P F| = x + p/2 $  <eq40>
 
 #set math.equation(numbering: "(1)")
 
-$ d = |x + p/2| = x + p/2 $  <eq41>
+$ d = |x + p/2| = x + p/2 $
 
 #set math.equation(numbering: none)
 
@@ -118,13 +113,13 @@ $ d = |x + p/2| = x + p/2 $  <eq41>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = x + p/2 $  <eq42>
+$ |P F| = x + p/2 $
 
 #set math.equation(numbering: none)
 
 证毕。
 
-== 五、重要推论
+=== 五、重要推论
 
 #set math.equation(numbering: none)
 
@@ -132,7 +127,7 @@ $ |P F| = x + p/2 $  <eq42>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = y^2/(2p) + p/2 $  <eq43>
+$ |P F| = y^2/(2p) + p/2 $
 
 #set math.equation(numbering: none)
 
@@ -142,7 +137,7 @@ $ |P F| = y^2/(2p) + p/2 $  <eq43>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| >= p/2 $  <eq44>
+$ |P F| >= p/2 $
 
 #set math.equation(numbering: none)
 
@@ -154,7 +149,7 @@ $ |P F| >= p/2 $  <eq44>
 
 #set math.equation(numbering: "(1)")
 
-$ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $  <eq45>
+$ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $
 
 #set math.equation(numbering: none)
 
@@ -162,7 +157,7 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $  <eq45>
 
 当 $x = p/2$ 时，$y = plus.minus p$，弦长 $= 2p$。
 
-== 六、公式汇总
+=== 六、公式汇总
 
 #set math.equation(numbering: none)
 
@@ -181,7 +176,7 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $  <eq45>
 
 其中 $p > 0$ 为焦参数。
 
-== 七、注意事项
+=== 七、注意事项
 
 #set math.equation(numbering: none)
 
@@ -195,7 +190,7 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $  <eq45>
 
 - 抛物线的离心率 $e = 1$
 
-== 八、典型应用
+=== 八、典型应用
 
 #set math.equation(numbering: none)
 
@@ -209,7 +204,7 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $  <eq45>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = x + p/2 = 2 + 2 = 4 $  <eq46>
+$ |P F| = x + p/2 = 2 + 2 = 4 $
 
 #set math.equation(numbering: none)
 
@@ -223,7 +218,7 @@ $ |P F| = x + p/2 = 2 + 2 = 4 $  <eq46>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F| = x + p/2 = x + 1 = 5 $  <eq47>
+$ |P F| = x + p/2 = x + 1 = 5 $
 
 #set math.equation(numbering: none)
 
@@ -231,7 +226,7 @@ $ |P F| = x + p/2 = x + 1 = 5 $  <eq47>
 
 #set math.equation(numbering: "(1)")
 
-$ x = 4 $  <eq48>
+$ x = 4 $
 
 #set math.equation(numbering: none)
 
@@ -249,7 +244,7 @@ $ x = 4 $  <eq48>
 
 #set math.equation(numbering: "(1)")
 
-$ |A B| = x_1 + x_2 + p = 1 + 9 + 3 = 13 $  <eq49>
+$ |A B| = x_1 + x_2 + p = 1 + 9 + 3 = 13 $
 
 #set math.equation(numbering: none)
 
@@ -263,13 +258,13 @@ $ |A B| = x_1 + x_2 + p = 1 + 9 + 3 = 13 $  <eq49>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F|_min = p/2 = 3 $  <eq50>
+$ |P F|_min = p/2 = 3 $
 
 #set math.equation(numbering: none)
 
 当 $P$ 在顶点 $(0, 0)$ 时取到。
 
-== 九、三种圆锥曲线焦半径对比
+=== 九、三种圆锥曲线焦半径对比
 
 #set math.equation(numbering: none)
 
@@ -284,3 +279,4 @@ $ |P F|_min = p/2 = 3 $  <eq50>
   ),
   caption: [三种圆锥曲线焦半径公式对比],
 )
+]

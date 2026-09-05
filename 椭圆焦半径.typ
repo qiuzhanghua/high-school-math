@@ -1,16 +1,11 @@
-#set page(
-  paper: "a4",
-  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
-)
+#import "template.typ": *
 
-#set text(
-  font: ("Noto Serif CJK SC", "DejaVu Sans"),
-  size: 11pt,
-)
+#set document(title: [椭圆焦半径公式])
 
-#set math.equation(numbering: "(1)")
-
-= 椭圆焦半径公式
+#template(
+  heading2-align: left,
+  page-footer: "第 1 页",
+)[
 
 == 一、基本定义
 
@@ -20,7 +15,7 @@
 
 #set math.equation(numbering: "(1)")
 
-$ x^2 / a^2 + y^2 / b^2 = 1 $（$a > b > 0$）  <eq1>
+$ x^2 / a^2 + y^2 / b^2 = 1 $（$a > b > 0$）
 
 #set math.equation(numbering: none)
 
@@ -40,9 +35,9 @@ $F_1(-c, 0)$，$F_2(c, 0)$，其中 $c^2 = a^2 - b^2$。
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = a + e x $  <eq2>
+$ |P F_1| = a + e x $
 
-$ |P F_2| = a - e x $  <eq3>
+$ |P F_2| = a - e x $
 
 #set math.equation(numbering: none)
 
@@ -52,9 +47,9 @@ $ |P F_2| = a - e x $  <eq3>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = a + (c/a) x = a + c x / a $  <eq4>
+$ |P F_1| = a + (c/a) x = a + c x / a $
 
-$ |P F_2| = a - (c/a) x = a - c x / a $  <eq5>
+$ |P F_2| = a - (c/a) x = a - c x / a $
 
 #set math.equation(numbering: none)
 
@@ -62,9 +57,9 @@ $ |P F_2| = a - (c/a) x = a - c x / a $  <eq5>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = e (x + a/e) $  <eq6>
+$ |P F_1| = e (x + a/e) $
 
-$ |P F_2| = e (a/e - x) $  <eq7>
+$ |P F_2| = e (a/e - x) $
 
 
 == 三、几何意义
@@ -85,7 +80,7 @@ $ |P F_2| = e (a/e - x) $  <eq7>
 
 #set math.equation(numbering: "(1)")
 
-$ (a + e x) + (a - e x) = 2a $  <eq8>
+$ (a + e x) + (a - e x) = 2a $
 
 #set math.equation(numbering: none)
 
@@ -101,7 +96,7 @@ $ (a + e x) + (a - e x) = 2a $  <eq8>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = (x - c)^2 + y^2 $  <eq9>
+$ |P F_2|^2 = (x - c)^2 + y^2 $
 
 #set math.equation(numbering: none)
 
@@ -109,15 +104,15 @@ $ |P F_2|^2 = (x - c)^2 + y^2 $  <eq9>
 
 #set math.equation(numbering: "(1)")
 
-$ y^2 = b^2 (1 - x^2/a^2) $  <eq10>
+$ y^2 = b^2 (1 - x^2/a^2) $
 
 #set math.equation(numbering: none)
 
-代入 <eq9>：
+将上式代入两点间距离公式 $|P F_2|^2 = (x - c)^2 + y^2$，得：
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = (x - c)^2 + b^2 (1 - x^2/a^2) $  <eq11>
+$ |P F_2|^2 = (x - c)^2 + b^2 (1 - x^2/a^2) $
 
 #set math.equation(numbering: none)
 
@@ -125,7 +120,7 @@ $ |P F_2|^2 = (x - c)^2 + b^2 (1 - x^2/a^2) $  <eq11>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = x^2 - 2c x + c^2 + b^2 - (b^2/a^2)x^2 $  <eq12>
+$ |P F_2|^2 = x^2 - 2c x + c^2 + b^2 - (b^2/a^2)x^2 $
 
 #set math.equation(numbering: none)
 
@@ -133,7 +128,7 @@ $ |P F_2|^2 = x^2 - 2c x + c^2 + b^2 - (b^2/a^2)x^2 $  <eq12>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = x^2 - 2c x + c^2 + a^2 - c^2 - ((a^2 - c^2)/a^2)x^2 $  <eq13>
+$ |P F_2|^2 = x^2 - 2c x + c^2 + a^2 - c^2 - ((a^2 - c^2)/a^2)x^2 $
 
 #set math.equation(numbering: none)
 
@@ -141,7 +136,7 @@ $ |P F_2|^2 = x^2 - 2c x + c^2 + a^2 - c^2 - ((a^2 - c^2)/a^2)x^2 $  <eq13>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = x^2 - 2c x + a^2 - x^2 + (c^2/a^2)x^2 $  <eq14>
+$ |P F_2|^2 = x^2 - 2c x + a^2 - x^2 + (c^2/a^2)x^2 $
 
 #set math.equation(numbering: none)
 
@@ -149,7 +144,7 @@ $ |P F_2|^2 = x^2 - 2c x + a^2 - x^2 + (c^2/a^2)x^2 $  <eq14>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2|^2 = a^2 - 2c x + (c^2/a^2)x^2 = (a - c x/a)^2 $  <eq15>
+$ |P F_2|^2 = a^2 - 2c x + (c^2/a^2)x^2 = (a - c x/a)^2 $
 
 #set math.equation(numbering: none)
 
@@ -157,7 +152,7 @@ $ |P F_2|^2 = a^2 - 2c x + (c^2/a^2)x^2 = (a - c x/a)^2 $  <eq15>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = a - c x/a = a - e x $  <eq16>
+$ |P F_2| = a - c x/a = a - e x $
 
 #set math.equation(numbering: none)
 
@@ -165,7 +160,7 @@ $ |P F_2| = a - c x/a = a - e x $  <eq16>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = a + c x/a = a + e x $  <eq17>
+$ |P F_1| = a + c x/a = a + e x $
 
 == 五、公式证明（几何法）
 
@@ -181,7 +176,7 @@ $ |P F_1| = a + c x/a = a + e x $  <eq17>
 
 #set math.equation(numbering: "(1)")
 
-$ d(P, x = a/e) = |x - a/e| = a/e - x $（因为 $x <= a < a/e$）  <eq18>
+$ d(P, x = a/e) = |x - a/e| = a/e - x $（因为 $x <= a < a/e$）
 
 #set math.equation(numbering: none)
 
@@ -189,7 +184,7 @@ $ d(P, x = a/e) = |x - a/e| = a/e - x $（因为 $x <= a < a/e$）  <eq18>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| / (a/e - x) = e $  <eq19>
+$ |P F_2| / (a/e - x) = e $
 
 #set math.equation(numbering: none)
 
@@ -197,7 +192,7 @@ $ |P F_2| / (a/e - x) = e $  <eq19>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_2| = e (a/e - x) = a - e x $  <eq20>
+$ |P F_2| = e (a/e - x) = a - e x $
 
 #set math.equation(numbering: none)
 
@@ -205,7 +200,7 @@ $ |P F_2| = e (a/e - x) = a - e x $  <eq20>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| = e (x + a/e) = a + e x $  <eq21>
+$ |P F_1| = e (x + a/e) = a + e x $
 
 #set math.equation(numbering: none)
 
@@ -219,15 +214,15 @@ $ |P F_1| = e (x + a/e) = a + e x $  <eq21>
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| dot |P F_2| = (a + e x)(a - e x) = a^2 - e^2 x^2 $  <eq22>
+$ |P F_1| dot |P F_2| = (a + e x)(a - e x) = a^2 - e^2 x^2 $
 
 #set math.equation(numbering: none)
 
-利用 $e^2 = c^2/a^2$ 和椭圆方程，可进一步化简（选学）：
+利用 $a^2 = b^2 + c^2$、$e^2 = c^2/a^2$ 和椭圆方程（$1 - x^2/a^2 = y^2/b^2$），焦半径之积还可进一步化为仅含 $y^2$ 的形式（选学）：
 
 #set math.equation(numbering: "(1)")
 
-$ |P F_1| dot |P F_2| = b^2 + (e^2 x^2 -? ) $（略）  <eq23>
+$ |P F_1| dot |P F_2| = a^2 - e^2 x^2 = b^2 + c^2 (1 - x^2/a^2) = b^2 + (c^2/b^2) y^2 $
 
 #set math.equation(numbering: none)
 
@@ -235,7 +230,7 @@ $ |P F_1| dot |P F_2| = b^2 + (e^2 x^2 -? ) $（略）  <eq23>
 
 #set math.equation(numbering: "(1)")
 
-$ a - c <= |P F_1| <= a + c $，$ a - c <= |P F_2| <= a + c $  <eq24>
+$ a - c <= |P F_1| <= a + c $，$ a - c <= |P F_2| <= a + c $
 
 #set math.equation(numbering: none)
 
@@ -251,7 +246,7 @@ $ a - c <= |P F_1| <= a + c $，$ a - c <= |P F_2| <= a + c $  <eq24>
 
 #set math.equation(numbering: "(1)")
 
-$ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $  <eq25>
+$ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $
 
 
 == 七、公式汇总
@@ -303,7 +298,7 @@ $ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $  <eq25>
 
 $ |P F_1| = a + e x = 5 + (4/5) times 3 = 5 + 12/5 = 37/5 $
 
-$ |P F_2| = a - e x = 5 - (4/5) times 3 = 5 - 12/5 = 13/5 $  <eq26>
+$ |P F_2| = a - e x = 5 - (4/5) times 3 = 5 - 12/5 = 13/5 $
 
 #set math.equation(numbering: none)
 
@@ -323,8 +318,9 @@ $|P F_1| = a + e x$，其中 $x in [-a, a] = [-4, 4]$。
 
 $ |P F_1|_min = a + e(-a) = a - c = 4 - 3 = 1 $
 
-$ |P F_1|_max = a + e(a) = a + c = 4 + 3 = 7 $  <eq27>
+$ |P F_1|_max = a + e(a) = a + c = 4 + 3 = 7 $
 
 #set math.equation(numbering: none)
 
 所以椭圆上点到左焦点的距离范围为 $[1, 7]$。
+]

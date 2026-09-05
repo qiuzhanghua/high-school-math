@@ -1,16 +1,13 @@
-#set page(
-  paper: "a4",
-  margin: (top: 2.5cm, bottom: 2.5cm, left: 2.5cm, right: 2.5cm),
-)
+#import "template.typ": *
 
-#set text(
-  font: ("Noto Serif CJK SC", "DejaVu Sans"),
-  size: 11pt,
-)
+#set document(title: [圆锥曲线点差法])
 
-#set math.equation(numbering: "(1)")
+#template(
+  heading2-align: left,
+  page-footer: "第 1 页",
+)[
 
-= 椭圆点差法经典结论
+== 椭圆
 
 点差法是处理圆锥曲线中点弦问题的常用方法，其核心在于利用平方差公式将弦的中点与斜率联系起来。
 
@@ -24,9 +21,9 @@
 
 #set math.equation(numbering: "(1)")
 
-$ x_1^2 / a^2 + y_1^2 / b^2 = 1 $  <eq1>
+$ x_1^2 / a^2 + y_1^2 / b^2 = 1 $
 
-$ x_2^2 / a^2 + y_2^2 / b^2 = 1 $  <eq2>
+$ x_2^2 / a^2 + y_2^2 / b^2 = 1 $
 
 #set math.equation(numbering: none)
 
@@ -34,7 +31,7 @@ $ x_2^2 / a^2 + y_2^2 / b^2 = 1 $  <eq2>
 
 #set math.equation(numbering: "(1)")
 
-$ (x_1^2 - x_2^2) / a^2 + (y_1^2 - y_2^2) / b^2 = 0 $  <eq3>
+$ (x_1^2 - x_2^2) / a^2 + (y_1^2 - y_2^2) / b^2 = 0 $
 
 #set math.equation(numbering: none)
 
@@ -42,7 +39,7 @@ $ (x_1^2 - x_2^2) / a^2 + (y_1^2 - y_2^2) / b^2 = 0 $  <eq3>
 
 #set math.equation(numbering: "(1)")
 
-$ ((x_1 - x_2)(x_1 + x_2)) / a^2 + ((y_1 - y_2)(y_1 + y_2)) / b^2 = 0 $  <eq4>
+$ ((x_1 - x_2)(x_1 + x_2)) / a^2 + ((y_1 - y_2)(y_1 + y_2)) / b^2 = 0 $
 
 #set math.equation(numbering: none)
 
@@ -50,7 +47,7 @@ $ ((x_1 - x_2)(x_1 + x_2)) / a^2 + ((y_1 - y_2)(y_1 + y_2)) / b^2 = 0 $  <eq4>
 
 #set math.equation(numbering: "(1)")
 
-$ (2x_0 (x_1 - x_2)) / a^2 + (2y_0 (y_1 - y_2)) / b^2 = 0 $  <eq5>
+$ (2x_0 (x_1 - x_2)) / a^2 + (2y_0 (y_1 - y_2)) / b^2 = 0 $
 
 #set math.equation(numbering: none)
 
@@ -58,7 +55,7 @@ $ (2x_0 (x_1 - x_2)) / a^2 + (2y_0 (y_1 - y_2)) / b^2 = 0 $  <eq5>
 
 #set math.equation(numbering: "(1)")
 
-$ k dot y_0 / x_0 = - b^2 / a^2 $  <eq6>
+$ k dot y_0 / x_0 = - b^2 / a^2 $
 
 #set math.equation(numbering: none)
 
@@ -66,14 +63,14 @@ $ k dot y_0 / x_0 = - b^2 / a^2 $  <eq6>
 
 #set math.equation(numbering: "(1)")
 
-$ k = - (b^2 x_0) / (a^2 y_0) $  <eq7>
+$ k = - (b^2 x_0) / (a^2 y_0) $
 
 #set math.equation(numbering: none)
 
 其中 $k$ 为弦 $A B$ 的斜率，$(x_0, y_0)$ 为弦 $A B$ 的中点坐标。
 
 
-= 双曲线点差法结论
+== 双曲线
 
 设双曲线方程为： $x^2 / a^2 - y^2 / b^2 = 1$，弦 $A B$ 的中点为 $M(x_0, y_0)$，弦 $A B$ 的斜率为 $k$。
 
@@ -83,7 +80,7 @@ $ k = - (b^2 x_0) / (a^2 y_0) $  <eq7>
 
 #set math.equation(numbering: "(1)")
 
-$ k dot y_0 / x_0 = b^2 / a^2 $  <eq8>
+$ k dot y_0 / x_0 = b^2 / a^2 $
 
 #set math.equation(numbering: none)
 
@@ -91,10 +88,10 @@ $ k dot y_0 / x_0 = b^2 / a^2 $  <eq8>
 
 #set math.equation(numbering: "(1)")
 
-$ k = (b^2 x_0) / (a^2 y_0) $  <eq9>
+$ k = (b^2 x_0) / (a^2 y_0) $
 
 
-= 抛物线点差法结论
+== 抛物线
 
 设抛物线方程为： $y^2 = 2p x$（$p > 0$），弦 $A B$ 的中点为 $M(x_0, y_0)$，弦 $A B$ 的斜率为 $k$。
 
@@ -106,9 +103,9 @@ $ k = (b^2 x_0) / (a^2 y_0) $  <eq9>
 
 #set math.equation(numbering: "(1)")
 
-$ y_1^2 = 2p x_1 $  <eq10>
+$ y_1^2 = 2p x_1 $
 
-$ y_2^2 = 2p x_2 $  <eq11>
+$ y_2^2 = 2p x_2 $
 
 #set math.equation(numbering: none)
 
@@ -116,7 +113,7 @@ $ y_2^2 = 2p x_2 $  <eq11>
 
 #set math.equation(numbering: "(1)")
 
-$ y_1^2 - y_2^2 = 2p (x_1 - x_2) $  <eq12>
+$ y_1^2 - y_2^2 = 2p (x_1 - x_2) $
 
 #set math.equation(numbering: none)
 
@@ -124,7 +121,7 @@ $ y_1^2 - y_2^2 = 2p (x_1 - x_2) $  <eq12>
 
 #set math.equation(numbering: "(1)")
 
-$ (y_1 - y_2)(y_1 + y_2) = 2p (x_1 - x_2) $  <eq13>
+$ (y_1 - y_2)(y_1 + y_2) = 2p (x_1 - x_2) $
 
 #set math.equation(numbering: none)
 
@@ -132,26 +129,10 @@ $ (y_1 - y_2)(y_1 + y_2) = 2p (x_1 - x_2) $  <eq13>
 
 #set math.equation(numbering: "(1)")
 
-$ k = p / y_0 $  <eq14>
+$ k = p / y_0 $
 
 
-= 点差法结论汇总
-
-#set math.equation(numbering: none)
-
-#figure(
-  table(
-    columns: 3,
-    stroke: none,
-    [曲线类型], [标准方程], [点差法结论],
-    [椭圆], [$x^2/a^2 + y^2/b^2 = 1$], [$k = -(b^2 x_0)/(a^2 y_0)$],
-    [双曲线], [$x^2/a^2 - y^2/b^2 = 1$], [$k = (b^2 x_0)/(a^2 y_0)$],
-    [抛物线], [$y^2 = 2p x$], [$k = p/y_0$],
-  ),
-  caption: [点差法核心结论汇总],
-)
-
-= 使用条件与注意事项
+== 使用条件与注意事项
 
 #set math.equation(numbering: none)
 
@@ -167,7 +148,7 @@ $ k = p / y_0 $  <eq14>
 
 
 
-= 典型例题
+== 典型例题
 
 #set math.equation(numbering: none)
 
@@ -179,7 +160,7 @@ $ k = p / y_0 $  <eq14>
 
 #set math.equation(numbering: "(1)")
 
-$ k = -(4 times 2)/(16 times 1) = -1/2 $  <eq15>
+$ k = -(4 times 2)/(16 times 1) = -1/2 $
 
 #set math.equation(numbering: none)
 
@@ -187,7 +168,7 @@ $ k = -(4 times 2)/(16 times 1) = -1/2 $  <eq15>
 
 #set math.equation(numbering: "(1)")
 
-$ y - 1 = -1/2 (x - 2) $  <eq16>
+$ y - 1 = -1/2 (x - 2) $
 
 #set math.equation(numbering: none)
 
@@ -195,7 +176,7 @@ $ y - 1 = -1/2 (x - 2) $  <eq16>
 
 #set math.equation(numbering: "(1)")
 
-$ x + 2y - 4 = 0 $  <eq17>
+$ x + 2y - 4 = 0 $
 
 #set math.equation(numbering: none)
 
@@ -207,7 +188,7 @@ $ x + 2y - 4 = 0 $  <eq17>
 
 #set math.equation(numbering: "(1)")
 
-$ 1 = -(4 x_0)/(9 y_0) $  <eq18>
+$ 1 = -(4 x_0)/(9 y_0) $
 
 #set math.equation(numbering: none)
 
@@ -215,7 +196,7 @@ $ 1 = -(4 x_0)/(9 y_0) $  <eq18>
 
 #set math.equation(numbering: "(1)")
 
-$ 9 y_0 = -4 x_0 $  <eq19>
+$ 9 y_0 = -4 x_0 $
 
 #set math.equation(numbering: none)
 
@@ -223,4 +204,6 @@ $ 9 y_0 = -4 x_0 $  <eq19>
 
 #set math.equation(numbering: "(1)")
 
-$ 4x + 9y = 0 $  <eq20>
+$ 4x + 9y = 0 $
+
+]

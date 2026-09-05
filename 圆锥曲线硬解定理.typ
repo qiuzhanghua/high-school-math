@@ -1,19 +1,19 @@
-#set page(
-  paper: "a4",
-)
-#set text(
-  font: ("Noto Serif CJK SC", "DejaVu Sans"),
-)
+#import "template.typ": *
 
-#set math.equation(numbering: "(1)")
+#set document(title: [圆锥曲线硬解定理])
 
-== 圆锥曲线硬解定理（直线 $y = k x + m$）
+#template(
+  heading2-align: left,
+  page-footer: "第 1 页",
+)[
+
+== 直线 $y = k x + m$
 
 设椭圆方程为： $x^2 / a^2 + y^2 / b^2 = 1$，直线方程为：$y = k x + m$。
 
 === 1. 联立方程
 将直线方程代入椭圆方程，消去 $y$，整理可得关于 $x$ 的一元二次方程：
-
+#set math.equation(numbering: "(1)")
 $ (a^2 k^2 + b^2) x^2 + 2 a^2 k m x + a^2 (m^2 - b^2) = 0 $
 
 === 2. 判别式
@@ -52,7 +52,7 @@ $ |A B| = sqrt(1 + k^2) dot (2 a b sqrt(a^2 k^2 + b^2 - m^2)) / (a^2 k^2 + b^2) 
 
 #pagebreak()
 
-= 圆锥曲线硬解定理（直线 $x = t y + m$）
+== 直线 $x = t y + m$
 
 设椭圆方程为： $x^2 / a^2 + y^2 / b^2 = 1$，直线方程为：$x = t y + m$。
 
@@ -97,3 +97,5 @@ $ |x_1 - x_2| = (2 a b |t| sqrt(a^2 + b^2 t^2 - m^2)) / (a^2 + b^2 t^2) $
 $
   |A B| = sqrt(1 + t^2) dot (2 a b sqrt(a^2 + b^2 t^2 - m^2)) / (a^2 + b^2 t^2)
 $
+
+]
