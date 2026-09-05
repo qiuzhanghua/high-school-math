@@ -48,7 +48,7 @@ $ |y_1 - y_2| = (2 a b |k| sqrt(a^2 k^2 + b^2 - m^2)) / (a^2 k^2 + b^2) $
 
 由弦长公式 $|A B| = sqrt(1 + k^2) sqrt((x_1 + x_2)^2 - 4 x_1 x_2)$，代入并化简，可得：
 
-$ |A B| = (2 a b sqrt(a^2 k^2 + b^2 - m^2)) / (a^2 k^2 + b^2) $
+$ |A B| = sqrt(1 + k^2) dot (2 a b sqrt(a^2 k^2 + b^2 - m^2)) / (a^2 k^2 + b^2) $
 
 #pagebreak()
 
@@ -95,5 +95,5 @@ $ |x_1 - x_2| = (2 a b |t| sqrt(a^2 + b^2 t^2 - m^2)) / (a^2 + b^2 t^2) $
 由弦长公式 $|A B| = sqrt(1 + t^2) sqrt((y_1 + y_2)^2 - 4 y_1 y_2)$，代入并化简，可得：
 
 $
-  |A B| = (2 a b sqrt(a^2 + b^2 t^2 - m^2)) / (a^2 + b^2 t^2)
+  |A B| = sqrt(1 + t^2) dot (2 a b sqrt(a^2 + b^2 t^2 - m^2)) / (a^2 + b^2 t^2)
 $
