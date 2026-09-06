@@ -1,6 +1,6 @@
 #import "template.typ": *
 
-#set document(title: [蒙日园及其反向应用])
+#set document(title: [蒙日圆及其反向应用])
 
 #template(
   heading2-align: left,
