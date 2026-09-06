@@ -129,7 +129,7 @@
   // 中文用 Noto Serif CJK SC 回退。不要再执行 `#set text(font: ...)`
   // 之类的单字体覆盖，那会替换掉整个字体列表，导致中文失去 CJK 回退。
   set text(
-    font: ("Latin Modern Math", "Noto Serif CJK SC"),
+    font: ("Latin Modern Math", "Sarasa Gothic SC"),
     size: text-size,
   )
 
