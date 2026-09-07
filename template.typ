@@ -129,8 +129,9 @@
   // 中文用 Sarasa Gothic SC 回退。不要再执行 `#set text(font: ...)`
   // 之类的单字体覆盖，那会替换掉整个字体列表，导致中文失去 CJK 回退。
   // 使用操作系统的中文字体回退，似乎没有什么问题。
+  // "Noto Sans SC", "Sarasa Gothic SC", "Source Han Serif"
   set text(
-    font: ("Latin Modern Math"),
+    font: ("Latin Modern Math", "Source Han Serif"),
     size: text-size,
   )
 
