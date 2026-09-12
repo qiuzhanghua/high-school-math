@@ -240,7 +240,7 @@
 
   #set math.equation(numbering: "(1)")
 
-  $ a - c <= |P F_1| <= a + c $，$ a - c <= |P F_2| <= a + c $
+  $ a - c <= |P F_1| <= a + c ， a - c <= |P F_2| <= a + c $
 
   #set math.equation(numbering: none)
 

@@ -252,7 +252,7 @@
 
   #set math.equation(numbering: "(1)")
 
-  $ |P F_1| >= a + c $，$|P F_2| >= c - a$
+  $ |P F_1| >= a + c , quad |P F_2| >= c - a $
 
   #set math.equation(numbering: none)
 
@@ -260,7 +260,7 @@
 
   #set math.equation(numbering: "(1)")
 
-  $ |P F_1| >= c - a $，$|P F_2| >= a + c$
+  $ |P F_1| >= c - a ，|P F_2| >= a + c $
 
   #set math.equation(numbering: none)
 
