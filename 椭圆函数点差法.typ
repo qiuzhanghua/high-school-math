@@ -70,6 +70,8 @@ $ k = - (b^2 x_0) / (a^2 y_0) $
 其中 $k$ 为弦 $A B$ 的斜率，$(x_0, y_0)$ 为弦 $A B$ 的中点坐标。
 
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 双曲线
 
 设双曲线方程为： $x^2 / a^2 - y^2 / b^2 = 1$，弦 $A B$ 的中点为 $M(x_0, y_0)$，弦 $A B$ 的斜率为 $k$。
@@ -90,6 +92,8 @@ $ k dot y_0 / x_0 = b^2 / a^2 $
 
 $ k = (b^2 x_0) / (a^2 y_0) $
 
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 == 抛物线
 
@@ -132,6 +136,8 @@ $ (y_1 - y_2)(y_1 + y_2) = 2p (x_1 - x_2) $
 $ k = p / y_0 $
 
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 使用条件与注意事项
 
 #set math.equation(numbering: none)
@@ -147,6 +153,8 @@ $ k = p / y_0 $
 - 双曲线中点不能在渐近线上，否则弦与双曲线可能只有单交点
 
 
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 == 典型例题
 

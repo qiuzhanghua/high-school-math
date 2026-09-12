@@ -148,6 +148,8 @@
   ② 一定两动
 
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   = 关键步骤总结
   #v(0.5em)
   ①  平移坐标系，使左顶点 $A$ 成为原点，定点 $B$ 变为 $(1,0)$
@@ -164,6 +166,8 @@
 
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   = 椭圆中点弦与斜率定值问题
 
@@ -611,6 +615,8 @@
   #align(center)[*证毕*]
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   = 椭圆斜率之和为定值的定点问题（齐次化方法）
 

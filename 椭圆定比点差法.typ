@@ -52,6 +52,8 @@
 
 
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   = 1.  椭圆定比点差法综合应用
 
   *题目：*

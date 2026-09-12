@@ -144,6 +144,8 @@
   $ |A B| = sqrt(1 + k^2) dot |x_1 - x_2| $
 
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   == 直线 $x = t y + m$
 
   === 椭圆 $x^2 / a^2 + y^2 / b^2 = 1$, 直线方程为：$x = t y + m$。

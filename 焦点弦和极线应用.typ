@@ -118,6 +118,8 @@
 
   #pagebreak()
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   == 解法三：仿射变换法
 
   *第一步：建立仿射变换*
@@ -195,6 +197,8 @@
   *结论：* 最大面积为 $sqrt(2)$，对应选项 A。
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   == 解法四：平移坐标系结合齐次化与韦达定理
 

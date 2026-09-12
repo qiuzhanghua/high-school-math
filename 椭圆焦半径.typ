@@ -27,6 +27,8 @@ $F_1(-c, 0)$，$F_2(c, 0)$，其中 $c^2 = a^2 - b^2$。
 
 焦半径公式给出了椭圆上一点到两个焦点的距离表达式。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 二、焦半径公式
 
 #set math.equation(numbering: none)
@@ -62,6 +64,8 @@ $ |P F_1| = e (x + a/e) $
 $ |P F_2| = e (a/e - x) $
 
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 三、几何意义
 
 #set math.equation(numbering: none)
@@ -85,6 +89,8 @@ $ (a + e x) + (a - e x) = 2a $
 #set math.equation(numbering: none)
 
 这一结论与椭圆定义完全一致，验证了公式的正确性。
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 == 四、公式证明（代数法）
 
@@ -162,6 +168,8 @@ $ |P F_2| = a - c x/a = a - e x $
 
 $ |P F_1| = a + c x/a = a + e x $
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 五、公式证明（几何法）
 
 #set math.equation(numbering: none)
@@ -206,6 +214,8 @@ $ |P F_1| = e (x + a/e) = a + e x $
 
 证毕。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 六、重要推论
 
 #set math.equation(numbering: none)
@@ -249,6 +259,8 @@ $ a - c <= |P F_1| <= a + c $，$ a - c <= |P F_2| <= a + c $
 $ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $
 
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 七、公式汇总
 
 #set math.equation(numbering: none)
@@ -266,6 +278,8 @@ $ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $
 
 其中 $e = c/a$，$c^2 = a^2 - b^2$，$0 < e < 1$。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 == 八、注意事项
 
 #set math.equation(numbering: none)
@@ -281,6 +295,8 @@ $ |A F_2| + |B F_2| = (a - e x_1) + (a - e x_2) = 2a - e(x_1 + x_2) $
 - 公式中的符号：$|P F_1| = a + e x$ 中 $x$ 前为正号，因为 $F_1$ 在左侧；$|P F_2| = a - e x$ 中 $x$ 前为负号，因为 $F_2$ 在右侧
 
 - 若交换 $F_1$、$F_2$ 的编号，公式中的正负号也会相应交换
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 == 九、典型应用
 

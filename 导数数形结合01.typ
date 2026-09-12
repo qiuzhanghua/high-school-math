@@ -98,6 +98,8 @@
   ]
 
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   == 另外一种转化思路
   \
 

@@ -25,6 +25,8 @@ $F(p/2, 0)$，准线方程为：$x = -p/2$。
 
 抛物线上任意一点 $P(x, y)$，连接 $P$ 与焦点 $F$ 的线段 $P F$ 称为焦半径。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 二、焦半径公式
 
 #set math.equation(numbering: none)
@@ -43,6 +45,8 @@ $ |P F| = x + p/2 $
 
 $ |P F| = y^2/(2p) + p/2 $
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 三、几何意义
 
 #set math.equation(numbering: none)
@@ -58,6 +62,8 @@ $ |P F| = y^2/(2p) + p/2 $
 - 当 $P$ 在顶点 $(0, 0)$ 时：$|P F| = p/2$
 
 - 抛物线的焦半径随点 $P$ 的横坐标 $x$ 线性增长
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 四、公式证明
 
@@ -119,6 +125,8 @@ $ |P F| = x + p/2 $
 
 证毕。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 五、重要推论
 
 #set math.equation(numbering: none)
@@ -157,6 +165,8 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $
 
 当 $x = p/2$ 时，$y = plus.minus p$，弦长 $= 2p$。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 六、公式汇总
 
 #set math.equation(numbering: none)
@@ -176,6 +186,8 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $
 
 其中 $p > 0$ 为焦参数。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 七、注意事项
 
 #set math.equation(numbering: none)
@@ -189,6 +201,8 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $
 - 抛物线的焦半径没有最大值，有最小值 $p/2$
 
 - 抛物线的离心率 $e = 1$
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 八、典型应用
 
@@ -263,6 +277,8 @@ $ |P F|_min = p/2 = 3 $
 #set math.equation(numbering: none)
 
 当 $P$ 在顶点 $(0, 0)$ 时取到。
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 九、三种圆锥曲线焦半径对比
 

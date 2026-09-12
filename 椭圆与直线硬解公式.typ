@@ -36,6 +36,8 @@
     [相交条件], $a^2 A^2 + b^2 B^2 - C^2 > 0$,
   )
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   == 韦达定理
 
   #table(
@@ -50,6 +52,8 @@
     [$y_1 y_2$], $frac(b^2 (C^2 - a^2 A^2), a^2 A^2 + b^2 B^2)$,
   )
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   == 对称与交叉项
 
@@ -67,6 +71,8 @@
 
   其中 $x_1 y_2 - x_2 y_1$ 的符号由 $x_2 - x_1$ 的正负决定。
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   == 弦长与中点
 
   #table(
@@ -80,6 +86,8 @@
     [中点 $y_0$], $-frac(b^2 B C, a^2 A^2 + b^2 B^2)$,
     [中点坐标], $(-frac(a^2 A C, a^2 A^2 + b^2 B^2), -frac(b^2 B C, a^2 A^2 + b^2 B^2))$,
   )
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   == 垂直与数量积条件
 

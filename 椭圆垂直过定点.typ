@@ -143,6 +143,8 @@
 
   #pagebreak()
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   = 题目2
 
   已知椭圆 $C: x^2 / a^2 + y^2 / b^2 = 1 (a > b > 0)$ 的离心率为 $1/2$，左焦点到 $P(2,1)$的距离为$sqrt(10)$。
@@ -247,6 +249,8 @@
   #align(center)[*证毕*]
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   = 题目3
 
@@ -452,6 +456,8 @@
   #align(center)[*证毕*]
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   = 题目4
 
@@ -680,6 +686,8 @@
   #align(center)[*证毕*]
 
   #pagebreak()
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   = 题目5
 

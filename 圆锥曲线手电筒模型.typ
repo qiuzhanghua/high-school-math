@@ -16,6 +16,8 @@
     $ Q(frac(a^2 - b^2, a^2 + b^2) x_0, - frac(a^2 - b^2, a^2 + b^2) y_0) $
   ]
   其中 $(x_0, y_0)$ 是点 $P$ 的坐标。
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   === 1. 椭圆参数化
 
   设椭圆方程为
@@ -25,6 +27,8 @@
 
   取其上一点 $P$ 的参数表示为：
   $ P = (a cos theta, b sin theta) $
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   === 2. 两条互相垂直的直线
 
@@ -40,6 +44,8 @@
   $ L_2: (x, y) = (a cos theta - s sin alpha, b sin theta + s cos alpha) $
 
   其中 $t, s$ 为参数，$t = 0$ 或 $s = 0$ 对应点 $P$。
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   === 3. 求 $L_1$ 与椭圆的另一交点 $A$
 
@@ -74,6 +80,8 @@
   所以：
   $ A = (a cos theta - frac(2N, M) cos alpha, b sin theta - frac(2N, M) sin alpha) $
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   === 4. 求 $L_2$ 与椭圆的另一交点 $B$
 
   将 $L_2$ 代入椭圆方程：
@@ -100,6 +108,8 @@
   于是：
   $ B = (a cos theta + frac(2L, K) sin alpha, b sin theta - frac(2L, K) cos alpha) $
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   === 5. 构造定点 $Q$
 
   定义常数：
@@ -107,6 +117,8 @@
 
   并设定点：
   $ Q = (lambda a cos theta, -lambda b sin theta) $
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   === 6. 证明 $A, B, Q$ 共线
 
@@ -173,6 +185,8 @@
     $
   ]
 
+  #line(length: 100%, stroke: 0.5pt + gray)
+
   === 7. 利用 $N, L, M, K$ 的关系化简
 
   将 $N, L$ 展开：
@@ -199,6 +213,8 @@
   ]
 
   利用恒等式 $M K = frac(1, a^2 b^2) (a^2 sin^2 alpha + b^2 cos^2 alpha)(b^2 sin^2 alpha + a^2 cos^2 alpha)$，可验证这两项相等且异号。同理其他项也成对抵消。
+
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   === 8. 结论
 

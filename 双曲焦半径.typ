@@ -26,6 +26,8 @@ $F_1(-c, 0)$，$F_2(c, 0)$，其中 $c^2 = a^2 + b^2$。
 
 双曲线上任意一点 $P(x, y)$，连接 $P$ 与焦点的线段 $P F_1$、$P F_2$ 称为焦半径。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 二、焦半径公式
 
 #set math.equation(numbering: none)
@@ -88,6 +90,8 @@ $ |P F_1| = -a - (c/a) x $
 
 $ |P F_2| = a - (c/a) x $
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 三、几何意义
 
 #set math.equation(numbering: none)
@@ -115,6 +119,8 @@ $ |(-e x - a) - (-e x + a)| = 2a $（左支）
   $|P F_1| = c - a$，$|P F_2| = a + c$
 
 - 双曲线的焦半径随点 $P$ 的横坐标 $x$ 线性变化（各支内）
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 四、公式证明（代数法）
 
@@ -184,6 +190,8 @@ $ |P F_2| = |c x/a - a| = |e x - a| $
 
 $ |P F_1| = |c x/a + a| = |e x + a| $
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 五、公式证明（几何法）
 
 #set math.equation(numbering: none)
@@ -221,6 +229,8 @@ $ |P F_1| = e (x + a/e) = e x + a $
 #set math.equation(numbering: none)
 
 对于左支上的点，同理可得带绝对值的公式。证毕。
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 六、重要推论
 
@@ -276,6 +286,8 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $
 
 统一为：$||P F_1| - |P F_2|| = 2a$。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 七、公式汇总
 
 #set math.equation(numbering: none)
@@ -295,6 +307,8 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $
 
 其中 $e = c/a > 1$，$c^2 = a^2 + b^2$。
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 === 八、注意事项
 
 #set math.equation(numbering: none)
@@ -308,6 +322,8 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $
 - 双曲线的离心率 $e > 1$，与椭圆的 $0 < e < 1$ 不同
 
 - 双曲线焦半径没有最大值（范围是 $[a+c, +infinity)$ 或 $[c-a, +infinity)$）
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 === 九、典型应用
 

@@ -47,6 +47,8 @@ $ k = - (4 dot 2) / (16 dot 1) = - 8 / 16 = - 1 / 2 $
 
 #pagebreak()
 
+#line(length: 100%, stroke: 0.5pt + gray)
+
 = 题目2
 
 椭圆 $C: x^2 / 4 + y^2 / 3 = 1$ 的左、右顶点分别为 $A_1, A_2$，点 $P$ 在 $C$ 上且直线 $P A_1$ 的斜率的取值范围是 $[-2, -1]$，那么直线 $P A_2$ 斜率的取值范围是（ ）
@@ -94,6 +96,8 @@ $ k_2 in [3 / 8, 3 / 4] $
 
 #pagebreak()
 
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 = 题目3
 
@@ -143,6 +147,8 @@ $ e = c / a = sqrt(1 - b^2 / a^2)
 
 #pagebreak()
 
+
+#line(length: 100%, stroke: 0.5pt + gray)
 
 = 题目4
 
