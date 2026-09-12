@@ -165,6 +165,42 @@ $ |A B| = |A F| + |B F| = (x_1 + p/2) + (x_2 + p/2) = x_1 + x_2 + p $
 
 当 $x = p/2$ 时，$y = plus.minus p$，弦长 $= 2p$。
 
+#strong[推论 4]：焦点弦长的角度形式（第二定义的应用）
+
+设过焦点 $F$ 的弦 $A B$ 与对称轴（$x$ 轴正方向）所成的角为 $theta$，则
+
+#set math.equation(numbering: "(1)")
+
+$ |A B| = (2 p)/(sin^2 theta) $
+
+#set math.equation(numbering: none)
+
+#strong[证明]（用抛物线定义，即 $e = 1$ 的第二定义）：
+
+以 $F$ 为极点、$x$ 轴正方向为极轴建立极坐标系，设抛物线上一点 $P$ 的极坐标为 $(r, phi)$，其中 $r = |P F|$，$phi$ 为 $F P$ 与 $x$ 轴正方向所成的角。
+
+$P$ 的直角坐标为 $(p/2 + r cos phi, r sin phi)$，而准线为 $x = -p/2$，故 $P$ 到准线的距离为
+
+$ (p/2 + r cos phi) - (-p/2) = p + r cos phi $
+
+由抛物线定义（到焦点的距离等于到准线的距离，即第二定义中 $e = 1$ 的情形）：
+
+$ r = p + r cos phi quad => quad r (1 - cos phi) = p $
+
+即抛物线的极坐标方程为
+
+$ r = p/(1 - cos phi) $
+
+（$phi = 0$ 时分母为 $0$，说明从焦点沿对称轴正方向的射线与抛物线不相交：抛物线上越远的点，其方向越接近对称轴。）
+
+于是过焦点、与对称轴成角 $theta$（$0 < theta < pi$）的弦 $A B$ 的两端点分别位于极角 $theta$、$theta + pi$ 的方向上，弦长为
+
+$ |A B| = r(theta) + r(theta + pi) = p (1/(1 - cos theta) + 1/(1 + cos theta)) = (2 p)/(1 - cos^2 theta) = (2 p)/(sin^2 theta) $
+
+证毕。
+
+验证：当 $theta = pi/2$（弦垂直于对称轴，即通径）时 $|A B| = 2p$，与推论 3 的结果一致。
+
 #line(length: 100%, stroke: 0.5pt + gray)
 
 === 六、公式汇总

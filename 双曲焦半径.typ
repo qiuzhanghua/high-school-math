@@ -286,6 +286,55 @@ $ |P F_1| - |P F_2| = (-e x - a) - (-e x + a) = -2a $
 
 统一为：$||P F_1| - |P F_2|| = 2a$。
 
+#strong[推论 4]：焦点弦长公式（第二定义的应用）
+
+设过右焦点 $F_2(c, 0)$ 的弦 $A B$ 与实轴（$x$ 轴正方向）所成的角为 $theta$，则
+
+#set math.equation(numbering: "(1)")
+
+$ |A B| = (2 a b^2)/(|a^2 - c^2 cos^2 theta|) $
+
+#set math.equation(numbering: none)
+
+#strong[证明]（用双曲线第二定义）：
+
+以 $F_2$ 为极点、$x$ 轴正方向为极轴建立极坐标系，设双曲线上一点 $P$ 的极坐标为 $(r, phi)$，其中 $r = |P F_2|$，$phi$ 为 $F_2 P$ 与 $x$ 轴正方向所成的角。
+
+先看右支上的点（$x >= a$）：它到右准线 $x = a/e$ 的距离为 $x - a/e$；又 $P$ 的直角坐标为 $(c + r cos phi, r sin phi)$，由第二定义（到焦点的距离与到相应准线的距离之比为 $e$）：
+
+$ r = e (c + r cos phi - a/e) = e c - a + e r cos phi $
+
+所以
+
+$ r (1 - e cos phi) = e c - a = c^2/a - a = (c^2 - a^2)/a = b^2/a $
+
+即右支的极坐标方程为
+
+$ r = (b^2/a)/(1 - e cos phi) $
+
+（校验：$phi = pi$ 时 $r = (b^2/a)/(1 + e) = b^2/(a + c) = c - a$，恰为右顶点到右焦点的距离。若把极径看作带符号的量（$r < 0$ 表示点在极角 $phi$ 的反方向上），该方程也表示双曲线的左支。）
+
+于是过焦点、与实轴成角 $theta$ 的弦 $A B$ 在极角 $theta$、$theta + pi$ 两个方向上，弦长为
+
+$ |A B| = |r(theta) + r(theta + pi)| = (b^2/a) |1/(1 - e cos theta) + 1/(1 + e cos theta)| = (2 b^2)/(a |1 - e^2 cos^2 theta|) $
+
+又
+
+$ 1 - e^2 cos^2 theta = 1 - (c^2/a^2) cos^2 theta = (a^2 - c^2 cos^2 theta)/a^2 $
+
+所以
+
+$ |A B| = (2 b^2)/a dot (a^2)/(|a^2 - c^2 cos^2 theta|) = (2 a b^2)/(|a^2 - c^2 cos^2 theta|) $
+
+证毕。
+
+验证：
+
+- $theta = 0$（弦在实轴所在的直线上）时 $|A B| = (2 a b^2)/(|a^2 - c^2|) = (2 a b^2)/b^2 = 2a$，正是两顶点间的距离；
+- $theta = pi/2$（弦为通径）时 $|A B| = (2 a b^2)/a^2 = (2 b^2)/a$。
+
+当 $|cos theta| > a/c$（弦的倾角小于渐近线的倾角，此时 $a^2 - c^2 cos^2 theta < 0$）时，弦与两支各交于一点，上式中的*绝对值不能省略*；当 $|cos theta| <= a/c$ 时弦与同一支交于两点，绝对值可直接去掉。
+
 #line(length: 100%, stroke: 0.5pt + gray)
 
 === 七、公式汇总
