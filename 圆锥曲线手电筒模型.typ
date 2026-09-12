@@ -64,7 +64,7 @@
   整理：
   #align(center)[
     $
-      t frac(2(cos alpha cos theta / a + sin alpha sin theta / b), 1) + t^2 frac(cos^2 alpha, a^2) + t^2 frac(sin^2 alpha, b^2) = 0
+      t frac(2((cos alpha cos theta)/a + (sin alpha sin theta)/b), 1) + t^2 frac(cos^2 alpha, a^2) + t^2 frac(sin^2 alpha, b^2) = 0
     $
   ]
 
@@ -92,7 +92,7 @@
   展开并整理得：
   #align(center)[
     $
-      s frac(2(- sin alpha cos theta / a + cos alpha sin theta / b), 1) + s^2 frac(sin^2 alpha, a^2) + s^2 frac(cos^2 alpha, b^2) = 0
+      s frac(2(-(sin alpha cos theta)/a + (cos alpha sin theta)/b), 1) + s^2 frac(sin^2 alpha, a^2) + s^2 frac(cos^2 alpha, b^2) = 0
     $
   ]
 

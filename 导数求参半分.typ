@@ -277,13 +277,13 @@
   注意到 $h(0) = 0$ 对任意实数 $m$ 都成立，即 $x = 0$ 是 $h(x)$ 的*固有零点*。因此"$h(x)$ 在 $[0, pi/2]$ 上有且仅有两个零点"等价于"$h(x)$ 在 $(0, pi/2]$ 上恰有一个零点"。
 
   当 $x in (0, pi/2]$ 时，$h(x) = 0$ 等价于
-  $ m = -e^x sin x/x $
+  $ m = -(e^x sin x)/x $
 
   令
-  $ phi(x) = -e^x sin x/x, quad x in (0, pi/2] $
+  $ phi(x) = -(e^x sin x)/x, quad x in (0, pi/2] $
   则问题转化为：直线 $y = m$ 与曲线 $y = phi(x)$ 在 $(0, pi/2]$ 上恰有一个公共点。
 
-  求导。记 $p(x) = e^x sin x/x$，则 $phi = -p$，且
+  求导。记 $p(x) = (e^x sin x)/x$，则 $phi = -p$，且
   $ p'(x) = ((e^x sin x + e^x cos x) x - e^x sin x)/x^2 = (e^x (x sin x + x cos x - sin x))/x^2 $
 
   记 $q(x) = x sin x + x cos x - sin x$，则

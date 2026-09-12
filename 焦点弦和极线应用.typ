@@ -156,7 +156,7 @@
 
   设直线 $A'B'$ 的倾斜角为 $theta$，则其方程为 $y' = tan theta (x' - 1/sqrt(2))$。
   圆心 $O(0,0)$ 到直线 $A'B'$ 的距离为：
-  $ d = (|tan theta|/sqrt(2))/(sqrt(1 + tan^2 theta)) = 1/sqrt(2) |sin theta| $
+  $ d = (abs(tan theta)/sqrt(2))/(sqrt(1 + tan^2 theta)) = 1/sqrt(2) abs(sin theta) $
   弦长 $A'B' = 2 sqrt(1 - d^2) = 2 sqrt(1 - 1/2 sin^2 theta)$。
 
   点 $F'(-1/sqrt(2), 0)$ 到直线 $A'B'$ 的距离（即三角形的高）为：
