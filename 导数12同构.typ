@@ -35,7 +35,7 @@
 
   == 【例 1】填空题：$x e^x$ 与 $x + ln x$ 同构
 
-  *【例 1】* 函数 $f(x) = x e^x - x - ln x$ 的最小值为 #underline[#h(2em)]。
+  *【例 1】* 函数 $f(x) = x e^x - x - ln x$ 的最小值为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -121,7 +121,7 @@
 
   == 【例 2】填空题：$m e^(m x)$ 与 $ln x$ 同构
 
-  *【例 2】* 函数 $f(x) = m e^(m x) - ln x$。当 $x > 0$ 时 $f(x) > 0$ 恒成立，则 $m$ 的取值范围为 #underline[#h(2em)]。
+  *【例 2】* 函数 $f(x) = m e^(m x) - ln x$。当 $x > 0$ 时 $f(x) > 0$ 恒成立，则 $m$ 的取值范围为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -177,7 +177,7 @@
 
   == 【例 3】填空题：同乘 $x$ 后同构成 $Phi(t) = t(e^t + 1)$
 
-  *【例 3】* 对任意的 $x > 0$，恒有 $a(e^(a x) + 1) >= 2 (x + 1/x) ln x$，则 $a$ 的最小值为 #underline[#h(2em)]。
+  *【例 3】* 对任意的 $x > 0$，恒有 $a(e^(a x) + 1) >= 2 (x + 1/x) ln x$，则 $a$ 的最小值为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -235,7 +235,7 @@
 
   == 【例 4】填空题：$ln x - 1/x$ 与 $a x - e^(-a x)$ 同构
 
-  *【例 4】* 若 $ln x - a x - 1/x <= -e^(-a x)$ 对一切 $x > 0$ 恒成立，则 $a$ 的取值范围为 #underline[#h(2em)]。
+  *【例 4】* 若 $ln x - a x - 1/x <= -e^(-a x)$ 对一切 $x > 0$ 恒成立，则 $a$ 的取值范围为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -291,7 +291,7 @@
 
   == 【例 5】填空题：两边同加 $x - 1$，凑出 $e^t + t$
 
-  *【例 5】* 已知函数 $f(x) = a e^(x - 1) - ln x + ln a$，若 $f(x) >= 1$ 恒成立，则 $a$ 的取值范围为 #underline[#h(2em)]。
+  *【例 5】* 已知函数 $f(x) = a e^(x - 1) - ln x + ln a$，若 $f(x) >= 1$ 恒成立，则 $a$ 的取值范围为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -415,7 +415,7 @@
 
   == 【例 7】填空题：$e^(-a x) ln x < a$
 
-  *【例 7】* 已知函数 $f(x) = e^(-a x) ln x$（$a > 0$）。若 $f(x) < a$ 恒成立，则 $a$ 的取值范围为 #underline[#h(2em)]。
+  *【例 7】* 已知函数 $f(x) = e^(-a x) ln x$（$a > 0$）。若 $f(x) < a$ 恒成立，则 $a$ 的取值范围为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 
@@ -470,7 +470,7 @@
 
   == 【例 8】$a e^x ln x < x^2 + x ln a$（$x in (0, 1)$）
 
-  *【例 8】* 已知函数 $f(x) = a e^x ln x$（$a != 0$）。若对一切 $x in (0, 1)$ 都有 $f(x) < x^2 + x ln a$，则 $a$ 的最小值为 #underline[#h(2em)]。
+  *【例 8】* 已知函数 $f(x) = a e^x ln x$（$a != 0$）。若对一切 $x in (0, 1)$ 都有 $f(x) < x^2 + x ln a$，则 $a$ 的最小值为 #box(width: 2em, stroke: (bottom: 0.5pt))。
 
   === 解析
 

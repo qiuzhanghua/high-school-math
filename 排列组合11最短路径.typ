@@ -79,7 +79,7 @@
 
   == 【例 2】长方体框架：三维最短路径与"不连续向上"
 
-  *【例 2】* 建筑工地搭建脚手架的局部类似于一个 $2 times 2 times 3$ 的长方体框架，一个建筑工人欲从 $A$ 处攀爬到 $B$ 处，则最近路线有 #underline[#h(2em)] 种，其中不连续向上攀爬的方法一共有 #underline[#h(2em)] 种。
+  *【例 2】* 建筑工地搭建脚手架的局部类似于一个 $2 times 2 times 3$ 的长方体框架，一个建筑工人欲从 $A$ 处攀爬到 $B$ 处，则最近路线有 #box(width: 2em, stroke: (bottom: 0.5pt)) 种，其中不连续向上攀爬的方法一共有 #box(width: 2em, stroke: (bottom: 0.5pt)) 种。
 
   #align(center)[
     #block(width: 220pt, height: 175pt)[
