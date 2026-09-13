@@ -1,10 +1,10 @@
 
 #import "template.typ": *
-#set document(title: [椭圆与直线硬解公式])
+#set document(title: [圆锥曲线硬解])
 #template(page-footer: "第 1 页")[
   #set math.equation(numbering: "(1)")
 
-  = 椭圆与直线硬解公式
+  = 椭圆与直线
 
   设椭圆
   $
@@ -47,7 +47,7 @@
 
   #pagebreak()
 
-  = 双曲线与直线硬解公式
+  = 双曲线与直线
 
   设双曲线
   $
@@ -90,7 +90,7 @@
 
   #pagebreak()
 
-  = 抛物线与直线硬解公式
+  = 抛物线与直线
 
   设抛物线
   $
