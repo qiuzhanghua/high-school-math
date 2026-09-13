@@ -75,13 +75,13 @@
 // ---- 文档模板 ----
 #let template(
   body,
-  heading2-align: center,       // 二级标题对齐方式：left / center
-  first-line-indent: none,      // 首行缩进（none 表示不缩进）
-  page-numbering: none,         // 标准页码格式（none 表示不显示页码）
-  page-footer: none,            // 自定义右对齐页脚，如 "第 1 页"（设置后取代标准页码）
-  equation-numbering: none,     // 公式编号格式（none 表示不编号）
-  reset-page: false,            // 是否将页码重置为 1
-  text-size: 12pt,              // 正文字号
+  heading2-align: center, // 二级标题对齐方式：left / center
+  first-line-indent: none, // 首行缩进（none 表示不缩进）
+  page-numbering: none, // 标准页码格式（none 表示不显示页码）
+  page-footer: none, // 自定义右对齐页脚，如 "第 1 页"（设置后取代标准页码）
+  equation-numbering: none, // 公式编号格式（none 表示不编号）
+  reset-page: false, // 是否将页码重置为 1
+  text-size: 12pt, // 正文字号
 ) = {
   // 页眉：右侧显示文档标题。
   // 需在文档顶层执行 `#set document(title: [……])`，此处自动读取；
@@ -125,13 +125,14 @@
     leading: 1em,
   )
 
-  // 字体：数学字体在前、中文字体殿后，保证公式用 Latin Modern Math、
+  // 字体：数学字体在前、中文字体殿后，保证公式用 Latin Modern Math
+  // 或者 New Computer Modern Math
   // 中文用 Sarasa Gothic SC 回退。不要再执行 `#set text(font: ...)`
   // 之类的单字体覆盖，那会替换掉整个字体列表，导致中文失去 CJK 回退。
   // 使用操作系统的中文字体回退，似乎没有什么问题。
   // "Noto Sans SC", "Sarasa Gothic SC", "Source Han Serif"
   set text(
-    font: ("Latin Modern Math", "Source Han Serif"),
+    font: ("New Computer Modern Math", "Source Han Serif"),
     size: text-size,
   )
 
