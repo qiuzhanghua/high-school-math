@@ -1,5 +1,5 @@
 #import "template.typ": *
-#set document(title: [椭圆定比点差法])
+#set document(title: [圆锥曲线定比点差法])
 #template(page-footer: "第 1 页")[
   #set math.equation(numbering: "(1)")
 
