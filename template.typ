@@ -22,6 +22,9 @@
 //   #theorem[……]      #proof[……]
 // ============================================================
 
+// QED
+#let qed = box(width: 100%, align(right)[$square$])
+
 // ---- 环境：定义 ----
 #let definition(body) = block(
   fill: rgb("#e8f4f8"),
