@@ -24,7 +24,7 @@
     align: (left, center),
     inset: (x: 12pt, y: 10pt),
     [*项目*], [*表达式*],
-    [相交条件], $Delta = a^2 A^2 + b^2 B^2 - C^2 > 0$,
+    [相交条件], $Delta = 4 a^2 b^2 (a^2 A^2 + b^2 B^2 - C^2) > 0$,
     [判别式 $Delta_x$], $Delta_x = 4 a^2 b^2 B^2 (a^2 A^2 + b^2 B^2 - C^2) = Delta dot B^2$,
     [判别式 $Delta_y$], $Delta_y = 4 a^2 b^2 A^2 (a^2 A^2 + b^2 B^2 - C^2) = Delta dot A^2$,
   )
@@ -67,9 +67,10 @@
     align: (left, center),
     inset: (x: 12pt, y: 10pt),
     [*项目*], [*表达式*],
-    [相交条件], $Delta = a^2 A^2 - b^2 B^2 - C^2 > 0$,
-    [判别式 $Delta_x$], $Delta_x = 4 a^2 b^2 B^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot B^2$,
-    [判别式 $Delta_y$], $Delta_y = 4 a^2 b^2 A^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot A^2$,
+    [二项式系数], $a^2 A^2 - b^2 B^2 != 0$,
+    [相交条件], $Delta = -4 a^2 b^2 (a^2 A^2 - b^2 B^2 - C^2) > 0$,
+    [判别式 $Delta_x$], $Delta_x = -4 a^2 b^2 B^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot B^2$,
+    [判别式 $Delta_y$], $Delta_y = -4 a^2 b^2 A^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot A^2$,
   )
 
 
@@ -84,8 +85,8 @@
     [$x_1 + x_2$], $-frac(2 a^2 A C, a^2 A^2 - b^2 B^2)$,
     [$x_1 x_2$], $frac(a^2 (C^2 + b^2 B^2), a^2 A^2 - b^2 B^2)$,
     [$y_1 + y_2$], $frac(2 b^2 B C, a^2 A^2 - b^2 B^2)$,
-    [$y_1 y_2$], $frac(b^2 (C^2 - a^2 A^2), a^2 A^2 - b^2 B^2)$,
-    [$x_1 y_2 + x_2 y_1$], $frac(2 a^2 b^2 A B, a^2 A^2 - b^2 B^2)$,
+    [$y_1 y_2$], $-frac(b^2 (C^2 - a^2 A^2), a^2 A^2 - b^2 B^2)$,
+    [$x_1 y_2 + x_2 y_1$], $-frac(2 a^2 b^2 A B, a^2 A^2 - b^2 B^2)$,
   )
 
   #pagebreak()
@@ -128,7 +129,7 @@
     [$y_1 y_2$], $frac(2 p C, A)$,
     [$x_1 + x_2$], $frac(2 p B^2 - 2 A C, A^2)$,
     [$x_1 x_2$], $frac(C^2, A^2)$,
-    [$x_1 y_2 + x_2 y_1$], $-frac(2 p C, A)$,
+    [$x_1 y_2 + x_2 y_1$], $-frac(2 p B C, A^2)$,
   )
 
   #pagebreak()
