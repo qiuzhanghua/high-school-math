@@ -67,7 +67,7 @@
     align: (left, center),
     inset: (x: 12pt, y: 10pt),
     [*项目*], [*表达式*],
-    [二项式系数], $a^2 A^2 - b^2 B^2 != 0$,
+    [二次项系数], $a^2 A^2 - b^2 B^2 != 0$,
     [相交条件], $Delta = -4 a^2 b^2 (a^2 A^2 - b^2 B^2 - C^2) > 0$,
     [判别式 $Delta_x$], $Delta_x = -4 a^2 b^2 B^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot B^2$,
     [判别式 $Delta_y$], $Delta_y = -4 a^2 b^2 A^2 (a^2 A^2 - b^2 B^2 - C^2) = Delta dot A^2$,
@@ -111,10 +111,17 @@
     align: (left, center),
     inset: (x: 12pt, y: 10pt),
     [*项目*], [*表达式*],
-    [相交条件], $Delta = 2 p B^2 - 2 p A C > 0$,
-    [判别式 $Delta_x$], $Delta_x = 4 p^2 B^2 (2 p B^2 - 2 p A C) = 4 p^2 B^2 dot Delta$,
-    [判别式 $Delta_y$], $Delta_y = 4 p^2 A^2 (2 p B^2 - 2 p A C) = 4 p^2 A^2 dot Delta$,
+    [二次项系数], $A != 0$,
+    [相交条件], $Delta = 4 p (p B^2 - 2 A C) > 0$,
+    [判别式 $Delta_x$], $Delta_x = Delta dot B^2$,
+    [判别式 $Delta_y$], $Delta_y = Delta$,
   )
+
+  *注*：由 $A x + B y + C = 0$ 解得 $x = (- B y - C)/A$，代入 $y^2 = 2 p x$ 得关于 $y$ 的二次方程
+
+  $ A y^2 + 2 p B y + 2 p C = 0, $
+
+  故 $Delta_y = (2 p B)^2 - 4 A dot 2 p C = 4 p (p B^2 - 2 A C)$，即 $Delta = Delta_y = 4 p (p B^2 - 2 A C)$；再由 $x = (- B y - C)/A$ 得 $Delta_x = Delta dot B^2$。
 
 
   == 韦达定理
