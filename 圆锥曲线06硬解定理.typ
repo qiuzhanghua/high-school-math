@@ -27,9 +27,9 @@
         align: (left, center),
         inset: (x: 5pt, y: 8pt),
         [*项目*], [*表达式*],
-        [二次项系数], $a^2 A^2 + b^2 B^2 > 0$,
-        [相交条件], $Delta = 4 a^2 b^2 (a^2 A^2 + b^2 B^2 - C^2) > 0$,
-        [判别式], $Delta_x = Delta dot B^2, quad Delta_y = Delta dot A^2$,
+        [二次系数], $a^2 A^2 + b^2 B^2 > 0$,
+        [相交条件 \ $Delta > 0$], $\ Delta = \ 4 a^2 b^2 (a^2 A^2 + b^2 B^2 - C^2)$,
+        [\ 判别式], $\ Delta_x = Delta dot B^2\ Delta_y = Delta dot A^2$,
       )
 
 
@@ -67,8 +67,8 @@
         inset: (x: 5pt, y: 8pt),
         [*项目*], [*表达式*],
         [二次项系数], $a^2 A^2 - b^2 B^2 != 0$,
-        [相交条件], $Delta = -4 a^2 b^2 (a^2 A^2 - b^2 B^2 - C^2) > 0$,
-        [判别式], $Delta_x = Delta dot B^2, quad Delta_y = Delta dot A^2$,
+        [ 相交条件 \ $Delta > 0$], $\ Delta = \ -4 a^2 b^2 (a^2 A^2 - b^2 B^2 - C^2)$,
+        [\ 判别式], $\ Delta_x = Delta dot B^2\ Delta_y = Delta dot A^2$,
       )
 
 
@@ -86,6 +86,9 @@
       )
     ],
   )
+
+  #pagebreak()
+
   == 习题
 
   *【习题 1】* 已知椭圆 $C: x^2/4 + y^2 = 1$，点 $A(2, 0)$，直线 $l$ 与椭圆 $C$ 交于 $M$、$N$ 两点，若始终有
