@@ -77,7 +77,7 @@
 
   点 $N$ 到直线 $l: k x - y - 2k = 0$ 的距离：
 
-  $ d = |k dot 1/2 - 3/(2k) - 2k|/sqrt(k^2 + 1) = (3 sqrt(k^2 + 1))/(2k) $
+  $ d = (|k dot 1/2 - 3/(2k) - 2k|)/(sqrt(k^2 + 1)) = (3 sqrt(k^2 + 1))/(2k) $
 
   所以 $triangle N P Q$ 的面积为：
 

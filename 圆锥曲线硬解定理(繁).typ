@@ -88,7 +88,7 @@
   #set math.equation(numbering: "(1)")
   $ x_1 y_2 + x_2 y_1 = (2 a^2 b^2 k) / D $
   #set math.equation(numbering: none)
-  $ |x_1 - x_2| = sqrt((x_1 + x_2)^2 - 4 x_1 x_2) = sqrt(Delta) / (|D|) $
+  $ |x_1 - x_2| = sqrt((x_1 + x_2)^2 - 4 x_1 x_2) = sqrt(Delta)/ (|D|) $
   #set math.equation(numbering: "(1)")
   $ |x_1 - x_2| = (2 a b sqrt(Omega)) / (|D|) $
   $ |y_1 - y_2| = |k| |x_1 - x_2| $
@@ -227,7 +227,7 @@
   #set math.equation(numbering: "(1)")
   $ x_1 y_2 + x_2 y_1 = (-2 a^2 b^2 t) / D $
   #set math.equation(numbering: none)
-  $ |y_1 - y_2| = sqrt((y_1 + y_2)^2 - 4 y_1 y_2) = sqrt(Delta) / (|D|) $
+  $ |y_1 - y_2| = sqrt((y_1 + y_2)^2 - 4 y_1 y_2) = sqrt(Delta)/ (|D|) $
   #set math.equation(numbering: "(1)")
   $ |y_1 - y_2| = (2 a b sqrt(Omega)) / (|D|) $
   #set math.equation(numbering: none)
