@@ -1,27 +1,9 @@
 // 导数压轴题破题思路（十类题型）
+#import "template.typ": problem-box, idea-box
+
 #set page(margin: 2cm, paper: "a4")
 #set text(size: 11pt, font: ("New Computer Modern", "Songti SC", "Source Han Sans"), lang: "zh")
 #set par(justify: true, leading: 0.9em)
-
-// 题型框
-#let problem-box(content) = block(
-  fill: rgb("E8F5E9"),
-  inset: 10pt,
-  radius: 4pt,
-  width: 100%,
-  stroke: (left: 4pt + rgb("2E7D32")),
-  content,
-)
-
-// 思路框
-#let idea-box(content) = block(
-  fill: rgb("FFFDE7"),
-  inset: 10pt,
-  radius: 4pt,
-  width: 100%,
-  stroke: (left: 4pt + rgb("F9A825")),
-  content,
-)
 
 #align(center)[
   #text(size: 18pt, weight: "bold", fill: rgb("D84315"))[导数压轴题所有类型破题思路]

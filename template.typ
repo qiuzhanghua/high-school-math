@@ -167,3 +167,24 @@
 
   body
 }
+
+// ===== 题型框 / 思路框（供 导数破题思路.typ 等使用）=====
+// 绿色题型框：用于放题目
+#let problem-box(content) = block(
+  fill: rgb("E8F5E9"),
+  inset: 10pt,
+  radius: 4pt,
+  width: 100%,
+  stroke: (left: 4pt + rgb("2E7D32")),
+  content,
+)
+
+// 黄色思路框：用于放破题思路
+#let idea-box(content) = block(
+  fill: rgb("FFFDE7"),
+  inset: 10pt,
+  radius: 4pt,
+  width: 100%,
+  stroke: (left: 4pt + rgb("F9A825")),
+  content,
+)
