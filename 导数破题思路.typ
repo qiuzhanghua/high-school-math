@@ -2,7 +2,7 @@
 #import "template.typ": problem-box, idea-box
 
 #set page(margin: 2cm, paper: "a4")
-#set text(size: 11pt, font: ("New Computer Modern", "Songti SC", "Source Han Sans"), lang: "zh")
+#set text(size: 11pt, font: ("New Computer Modern", "Source Han Serif"), lang: "zh")
 #set par(justify: true, leading: 0.9em)
 
 #align(center)[

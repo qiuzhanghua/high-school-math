@@ -1,5 +1,5 @@
 #set page(paper: "a4", margin: 2cm)
-#set text(font: ("New Computer Modern", "Songti SC", "Source Han Sans"), size: 11pt, lang: "zh")
+#set text(font: ("New Computer Modern", "Source Han Serif"), size: 11pt, lang: "zh")
 #set math.equation(numbering: "(1)")
 #set par(justify: true, leading: 0.9em)
 
