@@ -3,7 +3,6 @@
 #set document(title: [面面相交])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、面面交线的作法与性质
 

@@ -3,7 +3,6 @@
 #set document(title: [圆锥曲线练习题])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   *第一题* (原18题17分)
 

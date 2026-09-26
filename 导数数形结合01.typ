@@ -3,7 +3,6 @@
 #set document(title: [导数数形结合])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   = 函数最值问题的几何本质（斜率视角）
 

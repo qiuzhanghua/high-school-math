@@ -3,7 +3,6 @@
 #set document(title: [导数求参半分])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【例 1】恒成立求参数范围
 

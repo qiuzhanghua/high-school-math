@@ -3,7 +3,6 @@
 #set document(title: [二项式杨辉三角与拓展])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、杨辉三角里的规律
 

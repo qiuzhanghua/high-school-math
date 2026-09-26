@@ -3,7 +3,6 @@
 #set document(title: [二项式求系数])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、直接求系数：用通项公式
 

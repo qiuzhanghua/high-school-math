@@ -1,7 +1,6 @@
 #import "template.typ": *
 #set document(title: [抽象函数])
 #template(page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 知识解析
 

@@ -3,7 +3,6 @@
 #set document(title: [马尔科夫链])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【题型 1】简单递推
 

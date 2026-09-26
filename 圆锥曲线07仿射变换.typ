@@ -3,7 +3,6 @@
 #set document(title: [圆锥曲线仿射变换])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、把椭圆"压"成圆
 

@@ -3,7 +3,6 @@
 #set document(title: [二项式多项式])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、三项式（多项式）的展开
 

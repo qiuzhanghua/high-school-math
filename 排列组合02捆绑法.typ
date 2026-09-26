@@ -3,7 +3,6 @@
 #set document(title: [排列组合捆绑法])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、什么是"捆绑法"
 

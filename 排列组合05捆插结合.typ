@@ -3,7 +3,6 @@
 #set document(title: [排列捆绑插空结合])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、捆绑与插空"结合"用
 

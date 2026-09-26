@@ -3,7 +3,6 @@
 #set document(title: [排列组合分组再分配])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、"分组再分配"的两条路
 

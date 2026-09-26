@@ -3,7 +3,6 @@
 #set document(title: [几何法求角])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、几何法求异面直线所成的角
 

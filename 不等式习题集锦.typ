@@ -3,7 +3,6 @@
 #set document(title: [不等式习题集锦])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   *第 1 题*（巴蜀中学高 2027 届 9 月适应性月考（二）第 11 题）
 

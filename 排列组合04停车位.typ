@@ -3,7 +3,6 @@
 #set document(title: [排列停车位])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、停车位问题的通用思路
 

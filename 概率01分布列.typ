@@ -3,7 +3,6 @@
 #set document(title: [离散型随机变量的分布列])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【例 1】"放回 5 个红球"对应哪个事件（选择题）
 

@@ -3,7 +3,6 @@
 #set document(title: [回归分析])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、成对数据的相关关系
 

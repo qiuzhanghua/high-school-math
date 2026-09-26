@@ -3,7 +3,6 @@
 #set document(title: [导数与单调性])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【1】由 $f(x)$ 的图象判断 $f'(x)$ 的图象
 

@@ -3,7 +3,6 @@
 #set document(title: [独立性检验])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、分类变量与 $2 times 2$ 列联表
 

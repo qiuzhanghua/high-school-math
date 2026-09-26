@@ -97,7 +97,7 @@
   first-line-indent: none, // 首行缩进（none 表示不缩进）
   page-numbering: none, // 标准页码格式（none 表示不显示页码）
   page-footer: none, // 自定义右对齐页脚，如 "第 1 页"（设置后取代标准页码）
-  equation-numbering: none, // 公式编号格式（none 表示不编号）
+  equation-numbering: "(1)", // 公式编号格式（none 表示不编号）
   reset-page: false, // 是否将页码重置为 1
   text-size: 12pt, // 正文字号
 ) = {

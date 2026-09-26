@@ -3,7 +3,6 @@
 #set document(title: [导数指数对数])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【例 1】含对数的一元恒成立问题（两种解法）
 

@@ -3,7 +3,6 @@
 #set document(title: [射影几何])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、这份笔记的定位
 

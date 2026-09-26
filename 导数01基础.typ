@@ -3,7 +3,6 @@
 #set document(title: [导数基础])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【1】含抽象导数的切线方程
 

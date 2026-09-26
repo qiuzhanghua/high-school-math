@@ -3,7 +3,6 @@
 #set document(title: [排列组合多类插空])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、多类节目"同类不相邻"的处理
 

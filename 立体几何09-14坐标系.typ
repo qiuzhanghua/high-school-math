@@ -3,7 +3,6 @@
 #set document(title: [空间直角坐标系])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、空间向量与坐标运算
 

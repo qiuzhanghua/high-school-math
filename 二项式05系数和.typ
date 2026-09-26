@@ -3,7 +3,6 @@
 #set document(title: [二项式系数和])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、系数和：给 $x$ 赋值
 

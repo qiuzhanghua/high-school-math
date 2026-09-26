@@ -3,7 +3,6 @@
 #set document(title: [圆锥曲线极点极线])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、极点极线的基本图形
 

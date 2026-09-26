@@ -2,7 +2,6 @@
 #import "template.typ": *
 #set document(title: [圆锥曲线硬解])
 #template(page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   #grid(
     columns: (1fr, 1fr),

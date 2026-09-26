@@ -3,7 +3,6 @@
 #set document(title: [面面垂直及其应用])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、面面垂直的判定与性质
 

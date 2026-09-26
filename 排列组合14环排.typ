@@ -3,7 +3,6 @@
 #set document(title: [排列组合环排])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、环排（圆桌）问题
 

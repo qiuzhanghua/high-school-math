@@ -3,7 +3,6 @@
 #set document(title: [排列组合多面元素多面手])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、"多面手"问题
 

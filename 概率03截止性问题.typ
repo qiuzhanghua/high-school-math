@@ -3,7 +3,6 @@
 #set document(title: [概率截止性问题])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 【例 1】七局四胜制（NBA 总决赛）
 

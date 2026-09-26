@@ -3,7 +3,6 @@
 #set document(title: [导数习题集])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   *1.* 已知函数 $f(x) = (e^x - m x^2)(a ln x - m x)$，若 $exists m in RR$ 使得 $f(x) <= 0$ 在 $x in (0, +oo)$ 恒成立，则实数 $a$ 的取值范围为：
 

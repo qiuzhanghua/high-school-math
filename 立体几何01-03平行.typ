@@ -3,7 +3,6 @@
 #set document(title: [平行中位线])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set math.equation(numbering: "(1)")
 
   == 一、立体几何中的六条基本判定
 
