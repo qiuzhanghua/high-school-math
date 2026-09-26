@@ -24,6 +24,7 @@
 
 #align(center)[
   A. $1/2 quad$ B. $1 quad$  C. $e/2 quad$  D. $2$
+
 ]
 
 *解析：*
