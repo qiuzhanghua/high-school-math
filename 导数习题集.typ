@@ -3,16 +3,14 @@
 #set document(title: [导数习题集])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
+  #set math.equation(numbering: "(1)")
 
   *1.* 已知函数 $f(x) = (e^x - m x^2)(a ln x - m x)$，若 $exists m in RR$ 使得 $f(x) <= 0$ 在 $x in (0, +oo)$ 恒成立，则实数 $a$ 的取值范围为：
 
   #grid(
     columns: (1fr, 1fr, 1fr, 1fr),
     gutter: 4pt,
-    [A. $(-oo, e^2/4]$],
-    [B. $(e^2/4, e^3/4)$],
-    [C. $[0, e^3/4]$],
-    [D. $(-oo, e^3/4)$],
+    [A. $(-oo, e^2/4]$], [B. $(e^2/4, e^3/4)$], [C. $[0, e^3/4]$], [D. $(-oo, e^3/4)$],
   )
 
   *答案*：*#text(fill: rgb("#c7362e"))[C]*。
@@ -72,10 +70,7 @@
   #grid(
     columns: (1fr, 1fr, 1fr, 1fr),
     gutter: 4pt,
-    [A. $(1, 3/2)$],
-    [B. $(3/2, 2)$],
-    [C. $(2, 5/2)$],
-    [D. $(5/2, 3)$],
+    [A. $(1, 3/2)$], [B. $(3/2, 2)$], [C. $(2, 5/2)$], [D. $(5/2, 3)$],
   )
 
   *答案*：*#text(fill: rgb("#c7362e"))[B]*。
@@ -292,7 +287,7 @@
 
   $($要点：把 $x e^x - ln x - 1$ 配成 $e^t - t - 1$（$t = x + ln x$）后，$g(x) = (e^t - t - 1)/x + 1 >= 1$，最小值 $1$ 在 $x + ln x = 0$（即 $x e^x = 1$，$x approx 0.567$）处取得。$)$
 
-   #line(length: 100%, stroke: 0.5pt + gray)
+  #line(length: 100%, stroke: 0.5pt + gray)
 
   *5.* 当 $0 < a < 1/e$ 时，已知函数 $f(x) = x ln x - (a x^2)/2 - x$ 在其定义域内有两个不同的极值点 $x_1$ 和 $x_2$，且 $x_1 < x_2$。若 $m >= 1$，证明：$x_1 dot x_2^m > e^(1 + m)$。
 
@@ -543,30 +538,38 @@
 
   综上，$a$ 的取值范围是 $a <= 3$（即 $(-oo, 3]$）。
 
-  *数值核对*：$(tan x + 2 sin x)/x$ 在 $(0, pi/2)$ 上的最小值趋近于 $3$（在 $x -> 0^+$ 处取得），与 $a <= 3$ 一致。
 
-  *(3) 等价变形 + 单调性。* 因为 $cos x > 0$，
+  *(3) 构造差函数，用第 (2) 问的不等式把 $tan x$ 换掉，再一次配方。* 令
 
-  $ sin^2 x dot tan x > x^3 quad <=> quad (sin^3 x)/(cos x) > x^3 quad <=> quad (sin^3 x)/(x^3 cos x) > 1. $
+  $ F(x) = sin^2 x dot tan x - x^3, quad x in [0, pi/2), quad F(0) = 0. $
 
-  令
+  求导（$2 sin x cos x tan x = 2 sin^2 x$，$sin^2 x sec^2 x = tan^2 x$）：
 
-  $ Phi(x) = ln ((sin^3 x)/(x^3 cos x)) = 3 ln sin x - 3 ln x - ln cos x, quad x in (0, pi/2). $
+  $ F'(x) = 2 sin^2 x + tan^2 x - 3 x^2. $ <eq:ds8_5>
 
-  求导：
+  第 (2) 问取 $a = 3$ 时已证
 
-  $ Phi'(x) = 3 cot x - 3/x + tan x = 3(cot x - 1/x) + tan x. $
+  $ tan x + 2 sin x > 3 x quad <=> quad tan x > 3 x - 2 sin x, $ <eq:ds8_6>
 
-  由 $cot x = 1/x - x/3 - x^3/45 - dots.c$、$tan x = x + x^3/3 + 2 x^5/15 + dots.c$（$0 < x < pi/2$ 内收敛）逐项比较：
+  且 $x in (0, pi/2)$ 时 $3x - 2 sin x > 0$、$tan x > 0$，两边平方得
 
-  $ Phi'(x) = 3(-x/3 - x^3/45 - dots.c) + (x + x^3/3 + dots.c) = (1/3 - 1/45) x^3 + dots.c = (4 x^3)/45 + dots.c > 0, $
+  $ tan^2 x > (3 x - 2 sin x)^2. $ <eq:ds8_7>
 
-  故 $Phi$ 在 $(0, pi/2)$ 上严格递增。又 $x -> 0^+$ 时 $sin x slash x -> 1$、$cos x -> 1$，所以 $Phi(0^+) = 0$。于是 $Phi(x) > 0$，即
+  把 @eq:ds8_7 代入 @eq:ds8_5（$tan^2 x$ 用它的下界替换，不等号方向不变）：
 
-  $ (sin^3 x)/(x^3 cos x) > 1 quad => quad sin^2 x dot tan x > x^3. quad square $
+  $ F'(x) > 2 sin^2 x + (3 x - 2 sin x)^2 - 3 x^2 = 6 (sin x - x)^2 >= 0, $
 
-  *数值核对*：$sin^3 x slash (x^3 cos x)$ 在 $(0, pi/2)$ 上的最小值趋近于 $1$（在 $x -> 0^+$ 处），全区间内均严格大于 $1$。
 
-  *要点回顾*：本题三个小问分别对应三种常见手段——(1) 求导定号；(2) *端点效应*（先在端点处取必要条件，再用初等不等式/二阶导补足充分性）；(3) 把不等式*等价变形*成"$\ln$ 差为正"，用单调性完成证明（这也是"证明 $A > B$ 型三角不等式"的通用套路）。
+
+  又 $x in (0, pi/2)$ 时 $sin x < x$，所以 $6 (sin x - x)^2 > 0$，即 $F'(x) > 0$。因此 $F$ 在 $(0, pi/2)$ 上严格递增，
+
+  $ sin^2 x dot tan x - x^3 = F(x) > F(0) = 0, quad "即" sin^2 x dot tan x > x^3. quad square $
+
+
+  *要点*：第 (3) 问只需三步——*求导 → 用第 (2) 问的不等式替换 $tan^2 x$ → 配方成 $6(sin x - x)^2$*；比取对数、比幂级数比较都短，而且整条路线上不再出现 $tan x$。
+
+  *要点*：第 (3) 问的关键是*用第 (2) 问的结论替换 $3x$*，然后一次配方得到完全平方——比取对数、比幂级数比较都短得多。
+
+  *要点回顾*：本题三个小问分别对应三种常见手段——(1) 求导定号；(2) *端点效应*（先在端点处取必要条件，再用初等不等式/二阶导补足充分性）；(3) 把不等式*等价变形*成"差为正"，用单调性完成证明（这也是"证明 $A > B$ 型不等式"的通用套路）。
 
 ]
