@@ -40,7 +40,7 @@
     $
       D'(t) = (sqrt(t)-1)^2/(2 t^(3/2)) > 0 quad (t > 1)
     $
-    故 $D(t) > D(1) = 0$，即 $ln t < (t-1)/sqrt(t)$，从而 $L > sqrt{x_1 x_2}$。
+    故 $D(t) > D(1) = 0$，即 $ln t < (t-1)/sqrt(t)$，从而 $L > sqrt(x_1 x_2)$。
     #align(right)[$square$]
   ]
 
