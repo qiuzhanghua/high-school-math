@@ -85,7 +85,7 @@
   $
     a = tan A, quad b = tan B, quad c = tan C, quad A, B, C in (-pi/2, pi/2),
   $
-  则 $tan(A+B+C)$ 的分子为 $a + b + c - a b c = 0$；又 $A+B+C in (-3pi/2, 3pi/2)$，故 $A+B+C$ 只能为 $0$、$pi$ 或 $-pi$。
+  则 $tan(A+B+C)$ 的分子为 $a + b + c - a b c = 0$；又 $A+B+C in (-(3pi)/2, (3pi)/2)$，故 $A+B+C$ 只能为 $0$、$pi$ 或 $-pi$。
 
   注意到 $1/(a^2+1) = 1/(tan^2 A + 1) = cos^2 A$，故所求式为 $cos^2 A + cos^2 B + cos^2 C$。
 
