@@ -22,6 +22,9 @@
 //   #theorem[……]      #proof[……]           #remark[……]
 //   #remark 可带小标题：#remark(title: "级数展开视角")[……]
 //
+// 填空横线：#blank()；长度可选，如 #blank(1) / #blank(2) / #blank(5)（单位为 em），
+//   也可直接给长度 #blank(5em)。（不要用 #underline[#h(3em)]，它不显示横线。）
+//
 // 自动编号与引用：
 //   #definition、#theorem、#remark、#example 都会自动编号
 //   （定义 1…、定理 1…、注 1…、示例 1…，四者各自独立计数、整篇连续）。
@@ -57,6 +60,19 @@
 // 数学模式不继承 text-fonts：$x_("极值点")$ 里的中文会落到系统默认黑体，
 // 与正文宋体不一致。数学模式内写中文请用 #cjk[极值点]。
 #let cjk(body) = text(font: cjk-font, body)
+
+// ---- 填空横线 ----
+// 用法：#blank()（默认长度 3）或 #blank(1)、#blank(2)、#blank(4)、#blank(5)…
+//   参数是 em 倍数（无单位数字）；也可直接给长度 #blank(5em)。
+// 横线前后自带空隙，不会与相邻文字贴住。
+// 注意：正文里不要写 #underline[#h(3em)]——Typst 不会给"空内容"画下划线，
+// 那样不会显示任何横线（数式里写成 $underline(#h(3em))$ 才有效果）。
+// （用 ..args 是因为 Typst 不允许把"带默认值的参数"按位置传入。）
+#let blank(..args) = {
+  let n = if args.pos().len() > 0 { args.pos().first() } else { args.named().at("n", default: 3) }
+  let w = if type(n) == length { n } else { n * 1em }
+  h(0.4em) + box(width: w, stroke: (bottom: 0.6pt)) + h(0.4em)
+}
 
 // ---- 环境：定义（自动编号，可在后面加标签供 @ 引用） ----
 // 用法：#definition[……] <def:名字>   →  显示"定义 1"，@def:名字 引用为"定义 1"

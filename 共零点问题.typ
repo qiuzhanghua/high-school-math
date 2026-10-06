@@ -148,7 +148,7 @@
 
   #line(length: 100%, stroke: 0.5pt + gray)
 
-  *例 4* 已知当 $x in RR$ 时，不等式 $(a e^x - 2)(a e^x + x) >= 0$ 恒成立，则实数 $a$ 的取值范围为 #underline[#h(3em)]。
+  *例 4* 已知当 $x in RR$ 时，不等式 $(a e^x - 2)(a e^x + x) >= 0$ 恒成立，则实数 $a$ 的取值范围为 #blank()。
 
   *答案*：$a in (-oo, -1/e] union {2e^2}$。
 
@@ -181,7 +181,7 @@
 
   #line(length: 100%, stroke: 0.5pt + gray)
 
-  *例 5*（浙江卷）设 $a in RR$，若 $x > 0$ 时 $[(a - 1)x - 1](x^2 - a x - 1) >= 0$，则 $a =$ #underline[#h(3em)]。
+  *例 5*（浙江卷）设 $a in RR$，若 $x > 0$ 时 $[(a - 1)x - 1](x^2 - a x - 1) >= 0$，则 $a =$ #blank()。
 
   *答案*：$a = 3/2$。
 
@@ -218,7 +218,7 @@
 
   #line(length: 100%, stroke: 0.5pt + gray)
 
-  *例 6*（浙江卷）设 $f(x) = (ln(a x) - 1)(x^2 + a x - 4)$。若 $x > 0$ 时 $f(x) >= 0$，则 $a =$ #underline[#h(3em)]。
+  *例 6*（浙江卷）设 $f(x) = (ln(a x) - 1)(x^2 + a x - 4)$。若 $x > 0$ 时 $f(x) >= 0$，则 $a =$ #blank()。
 
   *答案*：$a = e/sqrt(4 - e)$。
 
