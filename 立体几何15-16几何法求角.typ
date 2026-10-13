@@ -1311,6 +1311,6 @@
   - *(1) 的关键仍是"找投影"*：$A B perp$ 平面 $P A D$（由 $P A perp$ 底面与 $A B perp A D$ 得），所以 $B$ 的投影是 $A$，$P B$ 的投影是 $P A$，所求角为 $angle B P A = 45degree$。
   - *(2) 两步各得一条垂直*：$C D perp$ 平面 $P A C$ 给 $C D perp A E$；等腰 $triangle P A C$ 的"三线合一"给 $A E perp P C$。其中 $triangle A B C$ 等边（$A B = B C$、$angle A B C = 60degree$）是推出 $P A = A C$ 的关键。
   - *(3) 借用 (2) 的结论*：$A E perp$ 平面 $P C D$ $=>$ $E$ 是 $A$ 的投影，于是 $sin theta = (A E)/("点" A "到" P D "的距离")$——把二面角问题转化为"两条长度之比"。
-  - *点到直线的距离用向量最稳*：$d = |arrow(P A) times arrow(P D)|/|arrow(P D)|$，避免作垂足。
+  - *点到直线的距离用向量最稳*：$d = abs(arrow(P A) times arrow(P D))/abs(arrow(P D))$，避免作垂足。
   - *答案 $(sqrt(14))/4 approx 0.935$* 接近 $1$，说明这个二面角较大（约 $69degree$ 的余角关系），与图中"两个半平面张得较开"相符。
 ]
