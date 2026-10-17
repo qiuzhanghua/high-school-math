@@ -1,5 +1,12 @@
 // ============================================================
-// template.typ — 高中数学文档共享模板
+// template.typ — 自动生成，请勿手工修改
+// 源：typst-notes@v1.0.0（lib.typ）
+// 重新生成：./sync-template.sh（Windows 用 ./sync-template.ps1）
+// 本仓公式编号默认值："(1)"
+// ============================================================
+
+// ============================================================
+// lib.typ — 数理讲义共享模板（单一源；由各仓根目录的 sync-template.sh 分发为 template.typ）
 //
 // 用法：
 //   #import "template.typ": *
@@ -193,9 +200,11 @@
   first-line-indent: none, // 首行缩进（none 表示不缩进）
   page-numbering: none, // 标准页码格式（none 表示不显示页码）
   page-footer: none, // 自定义右对齐页脚，如 "第 1 页"（设置后取代标准页码）
-  equation-numbering: "(1)", // 公式编号格式（none 表示不编号）
+  equation-numbering: "(1)", // 公式编号格式（none 表示不编号）；各仓取值见 .template.conf
   reset-page: false, // 是否将页码重置为 1
   text-size: 12pt, // 正文字号
+  title-size: 24pt, // 一级标题（文档大标题）字号
+  heading-size: 20pt, // 二级标题（一、二、三…）字号
 ) = {
   // 页眉：右侧显示文档标题。
   // 需在文档顶层执行 `#set document(title: [……])`，此处自动读取；
@@ -252,12 +261,12 @@
   set math.equation(numbering: equation-numbering)
 
   show heading.where(level: 1): it => {
-    set text(24pt, weight: "bold")
+    set text(title-size, weight: "bold")
     align(center)[#it]
   }
 
   show heading.where(level: 2): it => {
-    set text(20pt, weight: "bold")
+    set text(heading-size, weight: "bold")
     align(heading2-align)[#it]
   }
 
