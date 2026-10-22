@@ -3,7 +3,6 @@
 #set document(title: [椭圆垂直过定点])
 
 #template(heading2-align: left, page-footer: "第 1 页")[
-  #set text(size: 12pt)
   #set enum(numbering: "(1)")
 
   = 题目1
